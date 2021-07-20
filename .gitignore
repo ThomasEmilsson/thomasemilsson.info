@@ -3,3 +3,10 @@ node_modules/
 public
 .vscode/
 package-lock.json
+
+
+#scss
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
