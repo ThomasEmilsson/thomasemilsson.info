@@ -1,0 +1,28 @@
+@import "../../scss/main.scss";
+
+.navbar {
+  background-color: $background-color;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+}
+
+.link {
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+  text-decoration: none;
+  color: $primary-color;
+  margin: 10px;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: $secondary-color;
+}
+
+.selected {
+  text-decoration: underline;
+}
