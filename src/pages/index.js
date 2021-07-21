@@ -8,7 +8,9 @@ const IndexPage = () => {
     <main>
       <title>🇸🇪 🇵🇪</title>
       <Navbar />
-      {/* <Tester /> */}
+      <div className="about" id="about"></div>
+      <div className="work" id="work"></div>
+      <div className="contact" id="contact"></div>
     </main>
   );
 };

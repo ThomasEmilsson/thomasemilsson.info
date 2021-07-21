@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import NavLink from "./NavLink";
 
-import "./Navbar.scss";
+import "./Nav.scss";
 
 const Navbar = () => {
   const [selected, setSelected] = useState("about");
@@ -11,27 +12,21 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <a
-        className={`link ${selected === "about" ? "selected" : ""}`}
-        onClick={updateSelected}
-        to="about"
-      >
-        about
-      </a>
-      <a
-        className={`link ${selected === "work" ? "selected" : ""}`}
-        onClick={updateSelected}
-        to="work"
-      >
-        work
-      </a>
-      <a
-        className={`link ${selected === "contact" ? "selected" : ""}`}
-        onClick={updateSelected}
-        to="work"
-      >
-        contact
-      </a>
+      <NavLink
+        name="about"
+        selected={selected}
+        updateSelected={updateSelected}
+      />
+      <NavLink
+        name="work"
+        selected={selected}
+        updateSelected={updateSelected}
+      />
+      <NavLink
+        name="contact"
+        selected={selected}
+        updateSelected={updateSelected}
+      />
     </div>
   );
 };

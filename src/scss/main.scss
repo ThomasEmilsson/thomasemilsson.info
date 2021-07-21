@@ -12,3 +12,16 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }
+
+.about {
+  background-color: $primary-color;
+  height: 500px;
+}
+.work {
+  background-color: $secondary-color;
+  height: 500px;
+}
+.contact {
+  background-color: $soft-highlight-color;
+  height: 500px;
+}
