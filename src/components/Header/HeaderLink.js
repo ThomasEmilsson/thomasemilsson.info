@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "./Nav.scss";
+import React from "react";
+import "./Header.scss";
 
-const NavLink = ({ name, selected, updateSelected }) => {
+const HeaderLink = ({ name, selected, updateSelected }) => {
   return (
     <a
       className={`link ${selected === name ? "selected" : ""}`}
@@ -13,4 +13,4 @@ const NavLink = ({ name, selected, updateSelected }) => {
   );
 };
 
-export default NavLink;
+export default HeaderLink;

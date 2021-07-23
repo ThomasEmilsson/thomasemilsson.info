@@ -1,27 +1,33 @@
 // _base.scss
 $font-stack: Helvetica, sans-serif;
 
-$primary-color: #2c3531;
-$secondary-color: #116466;
-$dark-highlight-color: #d9b08c;
-$soft-highlight-color: #ffcb9a;
-$background-color: #d1e8e2;
+$primary-color: #b6ced4;
+$secondary-color: #b0bcc2;
+$color-text: #c5def1;
+$color-nav: #a2eadf;
+$color-button: #6ab271;
+$color-heavy-bold-text: #1a3d3f;
+$color-text: #6e7c83;
+
+$background-color: #e8fcff;
+$nav-color: #f3f8fc;
 
 body {
   margin: 0;
   font: 100% $font-stack;
-  color: $primary-color;
+  color: $background-color;
+  background-color: $background-color;
 }
 
 .about {
   background-color: $primary-color;
-  height: 500px;
+  height: 1500px;
 }
 .work {
   background-color: $secondary-color;
-  height: 500px;
+  height: 1500px;
 }
 .contact {
-  background-color: $soft-highlight-color;
-  height: 500px;
+  background-color: $secondary-color;
+  height: 1500px;
 }

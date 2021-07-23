@@ -1,0 +1,59 @@
+@import "../../scss/main.scss";
+
+.header {
+  background-color: $nav-color;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape-left {
+  margin-left: 10%;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid $color-button;
+  border-right: 20px solid transparent;
+}
+
+.shape-right {
+  width: 0;
+  height: 0;
+  border-top: 20px solid$color-button;
+  border-left: 20px solid transparent;
+}
+
+.div-title {
+  position: relative;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.title {
+  color: $color-heavy-bold-text;
+}
+
+.div-link {
+  margin-left: auto;
+  margin-right: 10%;
+}
+.link {
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+  text-decoration: none;
+  color: $color-text;
+  margin: 15px;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: $secondary-color;
+}
+
+.selected {
+  text-decoration: underline;
+}
