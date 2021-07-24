@@ -20,3 +20,14 @@ body {
   color: $background-color;
   background-color: $background-color;
 }
+
+.diagonal-background {
+  height: 100vh;
+  margin-top: 50px;
+  background-color: $color-button;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    $color-button 50%,
+    $background-color 50%
+  );
+}
