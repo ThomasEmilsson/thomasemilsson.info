@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import "./Header.scss";
+import React from "react";
+
+import "./HeaderLink.scss";
 
 const HeaderLink = ({ name, selected, updateSelected }) => {
   if (name === "Thomas Emilsson") {
