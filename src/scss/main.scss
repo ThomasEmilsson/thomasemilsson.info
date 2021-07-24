@@ -7,6 +7,8 @@ $color-text: #c5def1;
 $color-nav: #a2eadf;
 $color-button: #6ab271;
 $color-heavy-bold-text: #1a3d3f;
+
+$color-bold-text: #2f4858;
 $color-text: #6e7c83;
 
 $background-color: #e8fcff;
@@ -17,17 +19,4 @@ body {
   font: 100% $font-stack;
   color: $background-color;
   background-color: $background-color;
-}
-
-.about {
-  background-color: $primary-color;
-  height: 1500px;
-}
-.work {
-  background-color: $secondary-color;
-  height: 1500px;
-}
-.contact {
-  background-color: $secondary-color;
-  height: 1500px;
 }

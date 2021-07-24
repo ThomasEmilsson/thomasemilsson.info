@@ -4,20 +4,25 @@ import HeaderLink from "./HeaderLink";
 import "./Header.scss";
 
 const Header = () => {
-  const [selected, setSelected] = useState("about");
+  const [selected, setSelected] = useState("about me");
 
   const updateSelected = (event) => {
-    setSelected(`${event.target.text}`);
+    if (event.target.firstChild.data == "Thomas Emilsson") {
+      setSelected("about me");
+    } else {
+      setSelected(`${event.target.text}`);
+    }
   };
 
   return (
     <div className="header">
-      <div className="shape-left"></div>
       <div className="div-title">
-        <h2 className="title">Thomas Emilsson</h2>
+        <HeaderLink
+          name="Thomas Emilsson"
+          selected={selected}
+          updateSelected={updateSelected}
+        />
       </div>
-      <div className="shape-right"></div>
-
       <div className="div-link">
         <HeaderLink
           name="about me"

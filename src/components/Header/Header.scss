@@ -8,52 +8,63 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.shape-left {
-  margin-left: 10%;
-  width: 0;
-  height: 0;
-  border-bottom: 20px solid $color-button;
-  border-right: 20px solid transparent;
-}
-
-.shape-right {
-  width: 0;
-  height: 0;
-  border-top: 20px solid$color-button;
-  border-left: 20px solid transparent;
+  align-items: baseline;
+  border-bottom: 1px solid $color-button;
 }
 
 .div-title {
-  position: relative;
-  display: flex;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10%;
 }
+
 .title {
   color: $color-heavy-bold-text;
+}
+
+.slash {
+  font-weight: 900;
+  font-size: 25px;
+  color: $color-button;
+  transform: rotate(25deg);
+}
+
+.inline {
+  display: inline-block;
+  line-height: 18px;
+  margin: 10px;
+}
+
+.role {
+  color: $color-bold-text;
 }
 
 .div-link {
   margin-left: auto;
   margin-right: 10%;
 }
+
+.home {
+  cursor: pointer;
+  color: $color-button;
+}
+.home:hover {
+  cursor: pointer;
+  color: $color-button;
+}
+
 .link {
   font-size: 18px;
   line-height: 18px;
   display: inline-block;
   text-decoration: none;
   color: $color-text;
-  margin: 15px;
+  margin: 10px;
 }
 
 .link:hover {
   cursor: pointer;
-  color: $secondary-color;
+  color: $color-button;
 }
 
 .selected {
-  text-decoration: underline;
+  color: $color-button;
 }
