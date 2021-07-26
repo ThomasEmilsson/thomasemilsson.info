@@ -12,6 +12,15 @@
   // border-bottom: 1px solid $text-color-blue;
 }
 
-.div-title {
+.header-title-div {
   margin-left: 25%;
+}
+
+.header-title-div a {
+  text-decoration: none;
+  color: $text-color-blue;
+}
+
+.header-title-div a:hover {
+  color: $text-hover;
 }

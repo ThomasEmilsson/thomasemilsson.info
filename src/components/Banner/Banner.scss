@@ -1,0 +1,21 @@
+@import "../../scss/main.scss";
+
+.banner-div {
+  text-align: center;
+}
+
+.banner-title {
+  //   font-size: 30px;
+  padding: 20px;
+  color: $text-color;
+  border-bottom: 2px solid $text-color;
+  //   border-width: 50%;
+  display: inline-block;
+}
+
+.banner-description {
+  font-size: 20px;
+  //   padding: 12px;
+  padding-bottom: 20px;
+  color: $text-color;
+}

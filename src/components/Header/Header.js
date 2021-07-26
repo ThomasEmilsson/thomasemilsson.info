@@ -16,14 +16,14 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="div-title">
+      <div className="header-title-div">
         <HeaderLink
           name="Thomas Emilsson"
           selected={selected}
           updateSelected={updateSelected}
         />
       </div>
-      <div className="div-link">
+      <div className="header-div-link">
         <HeaderLink
           name="about me"
           selected={selected}
