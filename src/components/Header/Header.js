@@ -39,11 +39,6 @@ const Header = () => {
           selected={selected}
           updateSelected={updateSelected}
         />
-        <HeaderLink
-          name="contact"
-          selected={selected}
-          updateSelected={updateSelected}
-        />
       </div>
     </div>
   );

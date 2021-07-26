@@ -9,8 +9,8 @@ const HeaderLink = ({ name, selected, updateSelected }) => {
         <h2 className={`title inline ${selected === name ? "selected" : ""}`}>
           Thomas Emilsson
         </h2>
-        <p className="slash inline">.</p>
-        <p className="role inline">Software Engineer</p>
+        <p className="dot inline">.</p>
+        {/* <p className="role inline"> Software Engineer</p> */}
       </a>
     );
   } else
@@ -24,5 +24,4 @@ const HeaderLink = ({ name, selected, updateSelected }) => {
       </a>
     );
 };
-
 export default HeaderLink;

@@ -1,18 +1,17 @@
 @import "../../scss/main.scss";
 
 .header {
-  background-color: $nav-color;
+  background-color: $background-color-dark;
   top: 0px;
   width: 100%;
   z-index: 999;
-  position: fixed;
+  // position: fixed;
   display: flex;
   justify-content: center;
   align-items: baseline;
-
-  border-bottom: 1px solid $color-button;
+  // border-bottom: 1px solid $text-color-blue;
 }
 
 .div-title {
-  margin-left: 10%;
+  margin-left: 25%;
 }

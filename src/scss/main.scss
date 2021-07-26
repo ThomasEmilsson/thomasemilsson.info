@@ -1,33 +1,32 @@
 // _base.scss
 $font-stack: Helvetica, sans-serif;
 
-$primary-color: #b6ced4;
-$secondary-color: #b0bcc2;
-$color-text: #c5def1;
 $color-nav: #a2eadf;
 $color-button: #6ab271;
-$color-heavy-bold-text: #1a3d3f;
 
-$color-bold-text: #2f4858;
-$color-text: #6e7c83;
+$text-color-heavy-bold: #1a3d3f;
 
-$background-color: #e8fcff;
-$nav-color: #f3f8fc;
+$text-color: #e9ecef;
+$text-color-blue: #ced4da;
+$text-color-bold: #2f4858;
+$text-color-dark: #0e1b0f;
+$background-color-dark: #212529;
+$background-color-light: #dee2e6;
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
   font: 100% $font-stack;
-  color: $background-color;
-  background-color: $background-color;
+  background-color: $background-color-light;
 }
 
 .diagonal-background {
-  height: 100vh;
-  margin-top: 50px;
-  background-color: $color-button;
-  background-image: -webkit-linear-gradient(
-    30deg,
-    $color-button 50%,
-    $background-color 50%
-  );
+  background-color: $background-color-dark;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  padding-bottom: 100px;
 }
