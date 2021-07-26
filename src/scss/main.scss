@@ -2,7 +2,6 @@
 $font-stack: Helvetica, sans-serif;
 
 $color-nav: #a2eadf;
-$color-button: #6ab271;
 
 $text-color-heavy-bold: #1a3d3f;
 
@@ -30,4 +29,9 @@ body {
   background-color: $background-color-dark;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
   padding-bottom: 100px;
+}
+
+.diagonal-background-inverse {
+  background-color: $background-color-dark;
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
