@@ -5,17 +5,26 @@
 }
 
 .banner-title {
-  //   font-size: 30px;
   padding: 20px;
   color: $text-color;
-  border-bottom: 2px solid $text-color;
-  //   border-width: 50%;
+  border-bottom: 2px double $text-color;
   display: inline-block;
 }
 
 .banner-description {
   font-size: 20px;
-  //   padding: 12px;
   padding-bottom: 20px;
   color: $text-color;
+  margin-top: 0px;
+}
+
+.banner-icons a {
+  color: $text-color;
+  font-size: 26px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.banner-icons a:hover {
+  color: $text-hover;
 }
