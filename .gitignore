@@ -10,3 +10,7 @@ package-lock.json
 *.css.map
 *.sass.map
 *.scss.map
+
+
+#other
+src/CV.yaml
