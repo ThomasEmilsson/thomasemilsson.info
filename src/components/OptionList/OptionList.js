@@ -10,29 +10,28 @@ const OptionList = () => {
   const updateSelected = (event) => {
     setSelected(`${event.target.textContent}`);
   };
+  content = "test";
 
   return (
     <div className="option-list-div">
       <div className="option-list">
-        <ul>
-          <OptionListItem
-            type="Experience"
-            selected={selected}
-            updateSelected={updateSelected}
-          />
-          <OptionListItem
-            type="Education"
-            selected={selected}
-            updateSelected={updateSelected}
-          />
-          <OptionListItem
-            type="Skillset"
-            selected={selected}
-            updateSelected={updateSelected}
-          />
-        </ul>
+        <OptionListItem
+          type="Experience"
+          selected={selected}
+          updateSelected={updateSelected}
+        />
+        <OptionListItem
+          type="Education"
+          selected={selected}
+          updateSelected={updateSelected}
+        />
+        <OptionListItem
+          type="Skillset"
+          selected={selected}
+          updateSelected={updateSelected}
+        />
       </div>
-      <OptionDetail type={selected} content={selected} />
+      <OptionDetail type={selected} content={content} />
     </div>
   );
 };

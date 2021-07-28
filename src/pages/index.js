@@ -14,9 +14,7 @@ const IndexPage = () => {
         <div style={{ paddingTop: "20px" }} />
         <Banner />
       </div>
-      <div>
-        <OptionList />
-      </div>
+      <OptionList />
     </main>
   );
 };
