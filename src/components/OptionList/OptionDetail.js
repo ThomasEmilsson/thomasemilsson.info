@@ -35,7 +35,6 @@ const OptionDetail = ({ type, content }) => {
   } else {
     return console.error("option-detail-type doesn't match");
   }
-  return;
 };
 
 export default OptionDetail;

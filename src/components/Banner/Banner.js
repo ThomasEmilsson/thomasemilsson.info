@@ -12,26 +12,26 @@ const Banner = () => {
   return (
     <div className="banner-div">
       <h1 className="banner-title"> Welcome</h1>
-      <p className="banner-description">
+      <div className="banner-description">
         I am a Software Engineer, Web Developer, Musician, and an Avid Climber
         <p className="banner-icons">
-          <a href="">
+          <a href="www.google.com">
             <FaLinkedin />
           </a>
-          <a href="">
+          <a href="www.google.com">
             <FaGithub />
           </a>
-          <a href="">
+          <a href="www.google.com">
             <FaSoundcloud />
           </a>
-          <a href="">
+          <a href="www.google.com">
             <FaInstagram />
           </a>
-          <a href="">
+          <a href="www.google.com">
             <FaFacebookSquare />
           </a>
         </p>
-      </p>
+      </div>
     </div>
   );
 };

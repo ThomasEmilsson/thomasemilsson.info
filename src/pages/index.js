@@ -11,7 +11,7 @@ const IndexPage = () => {
       <title>🇸🇪 🇵🇪</title>
       <Header />
       <div className="diagonal-background">
-        <div style={{ paddingTop: "20px" }} />
+        {/* <div style={{ paddingTop: "20px" }} /> */}
         <Banner />
       </div>
       <OptionList />
