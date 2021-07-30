@@ -17,7 +17,9 @@ const OptionDetail = ({ type, content }) => {
   } else if (type === "Education") {
     return (
       <div className="option-detail-div">
-        <div className="option-detail">{content}</div>
+        {content.map((education, index) => (
+          <Education key={index} education={education} />
+        ))}
       </div>
     );
   } else if (type === "Skillset") {
@@ -29,7 +31,9 @@ const OptionDetail = ({ type, content }) => {
   } else if (type === "Project") {
     return (
       <div className="option-detail-div">
-        <div className="option-detail">{content}</div>
+        {content.map((project, index) => (
+          <Project key={index} project={project} />
+        ))}
       </div>
     );
   } else {

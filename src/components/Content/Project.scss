@@ -1,0 +1,46 @@
+@import "../../scss/main.scss";
+
+.project-div {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  height: 200px;
+}
+
+.project-div-bigger {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  height: 250px;
+}
+.project-title-div {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.project-name {
+  font-size: 18px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 900;
+}
+
+.project-separator {
+  margin: 4px;
+  font-size: 20px;
+  color: $text-color-dark;
+}
+
+.project-role {
+  margin: 4px;
+  font-size: 16px;
+  font-weight: 900;
+  color: $text-color-bold;
+}
+
+.experience-description {
+  margin: 0 auto;
+}
+
+.experience-description-item {
+  margin: 10px auto;
+}

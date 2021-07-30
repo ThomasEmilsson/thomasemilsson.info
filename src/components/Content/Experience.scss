@@ -2,15 +2,19 @@
 
 .experience-div {
   margin: 10px;
-  border-radius: 5px;
   border-top: 2px solid $background-color-dark;
-  border-bottom: 2px solid $background-color-dark;
   height: 200px;
+}
+
+.experience-div-bigger {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  height: 250px;
 }
 
 .experience-title-div {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: baseline;
 }
 
@@ -40,7 +44,7 @@
 
 .experience-role-div {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: baseline;
 }
 .experience-role {

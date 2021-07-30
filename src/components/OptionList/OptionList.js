@@ -4,6 +4,7 @@ import "./OptionList.scss";
 import OptionListItem from "./OptionListItem";
 import OptionDetail from "./OptionDetail";
 import CVObject from "../../CV.json";
+
 const OptionList = () => {
   const [selected, setSelected] = useState("Experience");
 
@@ -16,11 +17,11 @@ const OptionList = () => {
   if (selected == "Experience") {
     content = CVObject.Experience;
   } else if (selected == "Education") {
-    content = CVObject.Education.toString();
+    content = CVObject.Education;
   } else if (selected == "Skillset") {
     content = CVObject.Skills.toString();
   } else {
-    content = CVObject.Project.toString();
+    content = CVObject.Project;
   }
 
   return (
