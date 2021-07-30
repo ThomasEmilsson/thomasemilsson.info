@@ -1,0 +1,59 @@
+@import "../../scss/main.scss";
+
+.skillset-div {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  border-bottom: 2px solid $background-color-dark;
+}
+
+.language-title {
+  font-size: 18px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 900;
+}
+
+.programming-level {
+  font-size: 18px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 900;
+}
+
+.programming-skill {
+  margin: 4px;
+}
+.programming-list-div {
+  margin-bottom: 10px;
+}
+
+.language-list-div {
+  border-top: 2px dashed $background-color-dark;
+}
+
+.language-div {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.language-name {
+  margin: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  color: $text-color-bold;
+}
+
+.language-separator {
+  margin: 4px;
+  font-size: 20px;
+  color: $text-color-dark;
+}
+
+.language-proficiency {
+  font-size: 16px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 700;
+}

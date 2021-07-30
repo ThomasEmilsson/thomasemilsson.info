@@ -19,7 +19,7 @@ const OptionList = () => {
   } else if (selected == "Education") {
     content = CVObject.Education;
   } else if (selected == "Skillset") {
-    content = CVObject.Skills.toString();
+    content = CVObject.Skills;
   } else {
     content = CVObject.Project;
   }
