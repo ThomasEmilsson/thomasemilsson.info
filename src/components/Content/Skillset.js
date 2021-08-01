@@ -6,15 +6,16 @@ const Skillset = (content) => {
   const languageList = content.content[0].Languages;
   const programmingList = content.content[1].Programming;
 
-  console.log(programmingList);
   return (
     <div className="skillset-div">
       <div className="programming-list-div">
         {programmingList.map((skill, index) => (
           <div className="programming-level-div" key={index}>
             <p className="programming-level">{skill.level}</p>
-            {skill.skills.map((item) => (
-              <i className="programming-skill">{item}</i>
+            {skill.skills.map((item, index) => (
+              <i key={index} className="programming-skill">
+                {item}
+              </i>
             ))}
           </div>
         ))}

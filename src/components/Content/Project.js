@@ -17,6 +17,7 @@ const Project = (project) => {
         <p className="project-date">{date}</p>
       </div>
       <p className="project-role">{role}</p>
+
       {description.length > 0 ? (
         <ul className="project-description">
           {description.map((item, index) => (
@@ -26,6 +27,7 @@ const Project = (project) => {
           ))}
         </ul>
       ) : null}
+
       {technologies != undefined ? (
         <div className="technologies">
           Technologies: <i>{technologies}</i>

@@ -7,11 +7,11 @@ import CVObject from "../../CV.json";
 const OptionList = () => {
   const [selected, setSelected] = useState("Experience");
 
-  content = "";
-
   const updateSelected = (event) => {
     setSelected(`${event.target.textContent}`);
   };
+
+  let content = "";
 
   if (selected == "Experience") {
     content = CVObject.Experience;

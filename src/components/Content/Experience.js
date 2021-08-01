@@ -6,7 +6,6 @@ const Experience = (experience) => {
   const { name, date, role, description, location, technologies } =
     experience.experience;
 
-  console.log(technologies);
   return (
     <div
       className={`${
