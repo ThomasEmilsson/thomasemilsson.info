@@ -1,0 +1,68 @@
+@import "../../scss/colors.scss";
+
+.experience-div {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  height: 200px;
+}
+
+.experience-div-bigger {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  height: 300px;
+}
+
+.experience-title-div {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.experience-name {
+  font-size: 18px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 900;
+}
+
+.experience-separator {
+  margin: 4px;
+  font-size: 20px;
+  color: $text-color-dark;
+}
+
+.experience-date {
+  font-size: 16px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 700;
+}
+
+.experience-location {
+  margin: 4px;
+}
+
+.experience-role-div {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+.experience-role {
+  margin: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  color: $text-color-bold;
+}
+
+.experience-description {
+  margin: 0 auto;
+}
+
+.experience-description-item {
+  margin: 10px auto;
+}
+
+.technologies {
+  margin-top: 20px;
+}

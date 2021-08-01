@@ -1,0 +1,30 @@
+@import "../../scss/colors.scss";
+
+.banner-div {
+  text-align: center;
+}
+
+.banner-title {
+  padding: 20px;
+  color: $text-color;
+  border-bottom: 2px double $text-color;
+  display: inline-block;
+}
+
+.banner-description {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: $text-color;
+  margin-top: 0px;
+}
+
+.banner-icons a {
+  color: $text-color;
+  font-size: 26px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.banner-icons a:hover {
+  color: $text-hover;
+}

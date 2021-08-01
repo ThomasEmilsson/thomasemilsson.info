@@ -1,0 +1,242 @@
+{
+  "Experience": [
+    {
+      "name": "Redpill Linpro at Trafikförvältningen ICC",
+      "date": "March 2019 - Present",
+      "role": "Integration Developer",
+      "location": "Stockholm, Sweden",
+      "description": [
+        "Developed 8 integrations and 15 APIs to production and manage over 100 integrations at the Swedish Transport Administration (Trafikförvaltningen) with Mule 3 and Mule 4",
+        "Built a script to automate publishing and updating APIs",
+        "Wrote the onboarding documentation as well the system and developer documention for the 8 integrations and 15 APIS among other general developer documentation.",
+        "Designed and developed a visual web page that displays the status of the integrations (up, down, slow)"
+      ],
+      "technologies": "Mule 3, Mule 4, XML, Linux, JavaScript, bash scripting, Terraform, bitbucket pipelines, AWS: Lambda, CloudWatch, SQS"
+    },
+    {
+      "name": "Redpill Linpro at Trafikförvältningen TMS",
+      "date": "May 2021 - August 2021",
+      "role": "Integration Developer",
+      "location": "Stockholm, Sweden",
+      "description": [
+        "Drafted and built an API to be built that traffics large quantites of data.",
+        "Assisted in maintaining and updating existing services"
+      ],
+      "technologies": "Python, Terraform, AWS: Lambda, SQS, SNS, API Gateway, Cognito"
+    },
+    {
+      "name": "Empower & Lead",
+      "date": "July 2019 - November 2019",
+      "role": "Web Developer",
+      "location": "Stockholm, Sweden",
+      "description": [
+        "Coordinated closely with designer and delivered finished product on a deadline",
+        "Communicated and presented work modularly, allowing for adjustments based on feedback/concerns"
+      ],
+      "technologies": "React, JavaScript, SCSS, HTML, AWS S3"
+    },
+    {
+      "name": "Comfact",
+      "date": "May 2017 - August 2018",
+      "role": "Software Engineer | .NET Developer",
+      "location": "Gothenburg, Sweden",
+      "description": [
+        "Worked as a full stack .NET developer and have worked on several projects including the development of a complete reminder service to manage payments planning, as well as an invoicing system to print/track invoices",
+        "Assisted in maintaining and updating the existing web services while also redesigning and building the company's website from a marketing perspective using the CMS, DNN"
+      ],
+      "technologies": "C#, ASP.NET, DNN, JavaScript, HTML, CSS"
+    },
+    {
+      "name": "Chalmers",
+      "date": "September 2016 - May 2017",
+      "role": "Teaching Assistant",
+      "location": "Gothenburg, Sweden",
+      "description": [
+        "Led supervision sessions where I advised and supported Software Engineering students in their assignments and projects",
+        "Assisted in teaching UML and Software Architecture",
+        "Acted as Product Owner for a project over a 6 month period where I assessed their goals helped shape and prioritize their tasks and project to completion"
+      ]
+    },
+    {
+      "name": "Randstad",
+      "date": "September 2015 - May 2017",
+      "role": "Consultant",
+      "location": "Gothenburg, Sweden",
+      "description": [
+        "Handled logistics at Arcam AB using the Jeeves ERP System. Processed over 150 orders where I collected, recorded, packaged and organized all parts for distribution."
+      ]
+    },
+    {
+      "name": "Middlesex University",
+      "date": "September 2013 - June 2013",
+      "role": "Student Representative",
+      "location": "London, England",
+      "description": [
+        "Acted as liaison between the students and the university board",
+        "Responsible for gathering students feedback/suggestions and representing my peers during board meetings"
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "university": "Gothenburg University",
+      "graduation": "August 2018",
+      "location": "Gothenburg, Sweden",
+      "degree": "BSc Software Engineering",
+      "thesis": "Mitigating Trust Issues with Blockchain-Based Applications"
+    },
+    {
+      "university": "FreeCodeCamp",
+      "graduation": "May 2018",
+      "location": "Gothenburg, Sweden",
+      "degree": "Full Stack Web Development Certification",
+      "thesis": null
+    },
+    {
+      "university": "Middlesex University",
+      "graduation": "August 2015",
+      "location": "London, England",
+      "degree": "AA Music Production and Business",
+      "thesis": null
+    },
+    {
+      "university": "Awty International",
+      "graduation": "July 2010",
+      "location": "Houston, Texas",
+      "degree": "International Baccalaureate",
+      "thesis": null
+    }
+  ],
+  "Project": [
+    {
+      "name": "cozydatenight",
+      "date": "June 2020 - January 2021",
+      "role": "Web Developer",
+      "description": [
+        "Hobby project which allows couples to create custom date-nights",
+        "Application stores all ideas and shuffles to pick one based on tags/filters/search",
+        "MERN Stack"
+      ],
+      "technologies": "React, JavaScript, CSS, HTML"
+    },
+    {
+      "name": "Self-Driving Car",
+      "date": "January 2017 - June 2017",
+      "role": "Software Engineer and Scrum Master",
+      "description": [
+        "Programmed the software that allows a car to drive while detecting lanes/obstructions and handling intersections"
+      ],
+      "technologies": "C++, Docker, OpenCV"
+    },
+    {
+      "name": "Stena Line - Desktop Application",
+      "date": "January 2017 - June 2017",
+      "role": "Software Engineer and Scrum Master",
+      "description": [
+        "Engineered and redesigned the software (from scratch) that boat captains use daily to submit data.",
+        "Optimized the data validation, data transformations while focusing on the UI/UX aspects of the application",
+        "1 MB size as a constraint, this project was centered around user interaction and data input with ease"
+      ],
+      "technologies": "C, JavaScript, HTML, CSS"
+    },
+    {
+      "name": "Baldr",
+      "date": "September 2016 - January 2017",
+      "role": "iOS Developer and Scrum Master",
+      "description": [
+        "Developed a communication client using MQTT that controls lights in a home via an iOS application",
+        "Built the iOS application completely and assisted with the Android application."
+      ],
+      "technologies": "Swift, Erlang, Python, MySQL, Java"
+    },
+    {
+      "name": "The Smartest Car",
+      "date": "January 2016 - May 2016",
+      "role": "Android Developer and Scrum Master",
+      "description": [
+        "Designed and Developed an Android Application to remotely control an Arduino-based SmartCar",
+        "Created movement control with a visual joystick control and tilt control",
+        "Programmed both Wi-Fi and bluetooth connections"
+      ],
+      "technologies": "C++, Java"
+    },
+    {
+      "name": "SnapJump",
+      "date": "April 2016",
+      "role": "iOS Developer",
+      "description": [
+        "Developed side-scroller game where player creates levels through the pictures they take",
+        "Created-levels show up on a world map where other users can play each other's levels"
+      ],
+      "technologies": "Swift"
+    }
+  ],
+  "Skills": [
+    {
+      "Languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Sweden",
+          "proficiency": "Fluent"
+        }
+      ]
+    },
+    {
+      "Programming": [
+        {
+          "level": "Expert",
+          "skills": [
+            "JavaScript",
+            "React",
+            "HTML",
+            "CSS",
+            "Git",
+            "MuleSoft",
+            "UML",
+            "Agile Scrum"
+          ]
+        },
+        {
+          "level": "Advanced",
+          "skills": [
+            "DevOps",
+            "Node.js",
+            "XML",
+            "Data Structures",
+            "Lambda",
+            "SQS",
+            "SNS",
+            "Algorithms",
+            "bash",
+            "SSMS",
+            "Bitbucket Pipelines CI/CD"
+          ]
+        },
+        {
+          "level": "Familiar",
+          "skills": [
+            "Terraform",
+            "Java",
+            "Python",
+            "C#",
+            "C++",
+            "Android Development",
+            "S3",
+            "EC2",
+            "CloudWatch",
+            "API Gateway",
+            "IAM",
+            "Cognito"
+          ]
+        }
+      ]
+    }
+  ]
+}

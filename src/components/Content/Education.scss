@@ -1,0 +1,40 @@
+@import "../../scss/colors.scss";
+
+.education-div {
+  margin: 10px;
+  border-top: 2px solid $background-color-dark;
+  height: 150px;
+}
+
+.education-university {
+  font-size: 18px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 900;
+}
+
+.education-graduation {
+  font-size: 16px;
+  margin: 4px;
+  color: $text-color-dark;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.education-degree-div {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.education-degree {
+  margin: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  color: $text-color-bold;
+}
+
+.education-thesis {
+  margin: 4px;
+}

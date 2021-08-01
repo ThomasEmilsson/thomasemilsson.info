@@ -1,0 +1,26 @@
+@import "../../scss/colors.scss";
+
+.header {
+  background-color: $background-color-dark;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  // border-bottom: 1px solid $text-color-blue;
+}
+
+.header-title-div {
+  margin-left: 25%;
+}
+
+.header-title-div a {
+  text-decoration: none;
+  color: $text-color-blue;
+}
+
+.header-title-div a:hover {
+  color: $text-hover;
+}

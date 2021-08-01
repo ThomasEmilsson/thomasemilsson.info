@@ -1,0 +1,28 @@
+@import "../../scss/colors.scss";
+
+.card {
+  color: $text-color-heavy-bold;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  border: 1px solid $background-color-light;
+  display: grid;
+  grid-template-areas: "left right";
+  padding: 20px;
+  background-color: $background-color-light;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.card-left {
+  color: $text-color-dark;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-area: left;
+  row-gap: 20px;
+}
+.card-right {
+  grid-area: right;
+}
