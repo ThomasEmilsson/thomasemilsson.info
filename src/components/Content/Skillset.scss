@@ -6,13 +6,6 @@
   border-bottom: 2px solid $background-color-dark;
 }
 
-.language-title {
-  font-size: 18px;
-  margin: 4px;
-  color: $text-color-dark;
-  font-weight: 900;
-}
-
 .programming-level {
   font-size: 18px;
   margin: 4px;
@@ -24,17 +17,27 @@
   margin: 4px;
 }
 .programming-list-div {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .language-list-div {
   border-top: 2px dashed $background-color-dark;
+  margin-top: 20px;
 }
 
 .language-div {
   display: flex;
   justify-content: left;
   align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.language-title {
+  font-size: 18px;
+  margin: 4px;
+  margin-top: 10px;
+  color: $text-color-dark;
+  font-weight: 900;
 }
 
 .language-name {

@@ -1,0 +1,14 @@
+@import "../../scss/main.scss";
+
+.footer {
+  background-color: $background-color-dark;
+  width: 100%;
+  text-align: center;
+  //   bottom: 0;
+  flex-shrink: 0;
+}
+
+.footer-title {
+  color: $text-color-blue;
+  padding: 20px;
+}
