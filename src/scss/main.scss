@@ -1,18 +1,4 @@
-// _base.scss
-$font-stack: Helvetica, sans-serif;
-
-$color-nav: #a2eadf;
-
-$text-color-heavy-bold: #1a3d3f;
-
-$text-color: #e9ecef;
-$text-color-blue: #ced4da;
-$text-color-bold: #2f4858;
-$text-color-dark: #0e1b0f;
-$background-color-dark: #212529;
-$background-color-light: #dee2e6;
-$text-hover: #6ab271;
-$text-color-green-dark: #47884e;
+@import "../scss/colors.scss";
 
 *,
 ::after,
@@ -36,18 +22,6 @@ body {
 
 #gatsby-focus-wrapper {
   height: 100%;
-}
-
-.diagonal-background {
-  background-color: $background-color-dark;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
-  padding-bottom: 100px;
-}
-
-.diagonal-background-inverse {
-  padding-top: 100px;
-  background-color: $background-color-dark;
-  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
 }
 
 main {

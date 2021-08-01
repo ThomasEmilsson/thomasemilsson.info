@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Card from "../Card/Card";
 import "./OptionList.scss";
 import OptionListItem from "./OptionListItem";
 import OptionDetail from "./OptionDetail";

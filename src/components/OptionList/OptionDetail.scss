@@ -1,6 +1,10 @@
-@import "../../scss/main.scss";
+@import "../../scss/colors.scss";
 
 .option-detail-div {
   text-align: left;
   width: 75%;
+
+  // // scroll within div
+  // overflow: auto;
+  // height: 50vh;
 }

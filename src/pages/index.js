@@ -1,5 +1,8 @@
 import * as React from "react";
+
+import "../scss/extras.scss";
 import "../scss/main.scss";
+
 import Header from "../components/Header/Header";
 import OptionList from "../components/OptionList/OptionList";
 import Banner from "../components/Banner/Banner";
