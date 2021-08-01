@@ -3,7 +3,7 @@ import React from "react";
 import "./Project.scss";
 
 const Project = (project) => {
-  const { name, date, role, description } = project.project;
+  const { name, date, role, description, technologies } = project.project;
 
   return (
     <div
@@ -25,6 +25,11 @@ const Project = (project) => {
             </li>
           ))}
         </ul>
+      ) : null}
+      {technologies != undefined ? (
+        <div className="technologies">
+          Technologies: <i>{technologies}</i>
+        </div>
       ) : null}
     </div>
   );

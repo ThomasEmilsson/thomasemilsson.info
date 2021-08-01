@@ -11,14 +11,14 @@ import Footer from "../components/Footer/Footer";
 const IndexPage = () => {
   return (
     <main>
-      <content>
+      <div className="content">
         <title>🇸🇪 🇵🇪</title>
         <Header />
         <div className="diagonal-background">
           <Banner />
         </div>
         <OptionList />
-      </content>
+      </div>
       <div className="diagonal-background-inverse" />
       <Footer />
     </main>

@@ -3,8 +3,10 @@ import React from "react";
 import "./Experience.scss";
 
 const Experience = (experience) => {
-  const { name, date, role, description, location } = experience.experience;
+  const { name, date, role, description, location, technologies } =
+    experience.experience;
 
+  console.log(technologies);
   return (
     <div
       className={`${
@@ -29,6 +31,11 @@ const Experience = (experience) => {
             </li>
           ))}
         </ul>
+      ) : null}
+      {technologies != undefined ? (
+        <div className="technologies">
+          Technologies: <i>{technologies}</i>
+        </div>
       ) : null}
     </div>
   );
