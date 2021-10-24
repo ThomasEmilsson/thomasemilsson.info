@@ -13,7 +13,7 @@ const IndexPage = () => {
     <main>
       <div className="content">
         <title>🇸🇪 🇵🇪</title>
-        <Header />
+        {/* <Header /> */}
         <div className="diagonal-background">
           <Banner />
         </div>
