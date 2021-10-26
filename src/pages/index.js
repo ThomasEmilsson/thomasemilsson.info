@@ -12,8 +12,8 @@ const IndexPage = () => {
   return (
     <main>
       <div className="content">
-        <title>🇸🇪 🇵🇪</title>
-        {/* <Header /> */}
+        <title>Thomas Emilsson</title>
+        <Header />
         <div className="diagonal-background">
           <Banner />
         </div>
@@ -24,5 +24,5 @@ const IndexPage = () => {
     </main>
   );
 };
-
+//
 export default IndexPage;

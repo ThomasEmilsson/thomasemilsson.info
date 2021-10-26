@@ -16,11 +16,6 @@
   color: $text-color-blue;
 }
 
-.header-div-link {
-  margin-left: auto;
-  margin-right: 25%;
-}
-
 .header-link {
   font-size: 22px;
   line-height: 22px;
@@ -28,6 +23,10 @@
   text-decoration: none;
   color: $text-color-blue;
   margin: 10px;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .header-link:hover {

@@ -10,7 +10,6 @@ const HeaderLink = ({ name, selected, updateSelected }) => {
           Thomas Emilsson
         </h2>
         <p className="header-dot header-inline">.</p>
-        {/* <p className="header-role header-inline"> Software Engineer</p> */}
       </a>
     );
   } else

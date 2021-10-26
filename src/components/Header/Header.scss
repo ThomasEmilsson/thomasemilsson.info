@@ -5,15 +5,13 @@
   top: 0px;
   width: 100%;
   z-index: 999;
-  // position: fixed;
   display: flex;
   justify-content: center;
   align-items: baseline;
-  // border-bottom: 1px solid $text-color-blue;
-}
 
-.header-title-div {
-  margin-left: 25%;
+  @media only screen and (max-width: 600px) {
+    justify-content: flex-start;
+  }
 }
 
 .header-title-div a {
@@ -23,4 +21,20 @@
 
 .header-title-div a:hover {
   color: $text-hover;
+}
+
+.hamburger {
+  display: none;
+  color: white;
+  font-size: 44px;
+  line-height: 44px;
+  margin: 10px;
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
+}
+
+.hamburger:hover {
+  cursor: pointer;
 }
