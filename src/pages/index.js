@@ -11,13 +11,18 @@ import Footer from "../components/Footer/Footer";
 const IndexPage = () => {
   return (
     <main>
+      <meta
+        name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1.0"
+      />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
       <div className="content">
         <title>Thomas Emilsson</title>
         <Header />
         <div className="diagonal-background">
           <Banner />
         </div>
-        <OptionList />
+        {/* <OptionList /> */}
       </div>
       <div className="diagonal-background-inverse" />
       <Footer />
