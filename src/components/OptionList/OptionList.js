@@ -24,7 +24,7 @@ const OptionList = () => {
   }
 
   return (
-    <div className="option-list-div">
+    <div id="resume" className="option-list-div">
       <div className="option-list">
         <OptionListItem
           type="Experience"

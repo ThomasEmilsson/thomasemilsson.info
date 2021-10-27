@@ -13,28 +13,31 @@ const Header = () => {
   useEffect(() => {
     function updateWidth() {
       setWidth(window.innerWidth);
+      if (width > 600) {
+        setMenu(false);
+      }
     }
     window.addEventListener("resize", updateWidth);
   });
 
   const updateSelected = (event) => {
-    if (event.target.firstChild.data == "Thomas Emilsson") {
-      setSelected("about me");
-    } else {
-      setSelected(`${event.target.text}`);
-    }
+    setSelected(`${event.target.text}`);
   };
 
   const handleToggle = () => {
     setMenu((prev) => !prev);
   };
 
+  const goToItem = (event) => {
+    setMenu(false);
+  };
+
   return (
-    <div className="header">
+    <div className={`header`}>
       {width <= 600 ? (
         <FontAwesomeIcon
           onClick={handleToggle}
-          className="hamburger"
+          className={`hamburger ${menu ? "hide-menu-button" : ""}`}
           icon={faBars}
         />
       ) : (
@@ -60,6 +63,24 @@ const Header = () => {
             updateSelected={updateSelected}
           />
         </div>
+      )}
+      {menu ? (
+        <div className="menu-container">
+          <a href="#home" className="menu-item" onClick={goToItem}>
+            home
+          </a>
+          <a href="#resume" className="menu-item" onClick={goToItem}>
+            resume
+          </a>
+          <a href="#portfolio" className="menu-item" onClick={goToItem}>
+            portfolio
+          </a>
+          <a href="#contact" className="menu-item" onClick={goToItem}>
+            contact
+          </a>
+        </div>
+      ) : (
+        <div></div>
       )}
     </div>
   );

@@ -1,31 +1,15 @@
 @import "../../scss/colors.scss";
 
-.header-dot {
-  font-weight: 900;
-  font-size: 22px;
-  transform: rotate(25deg);
-}
-
-.header-inline {
-  display: inline-block;
-  line-height: 22px;
-  margin: 3px;
-}
-
-.header-role {
-  color: $text-color-blue;
-}
-
 .header-link {
   font-size: 22px;
   line-height: 22px;
   display: inline-block;
   text-decoration: none;
-  color: $text-color-blue;
+  color: $navbar-text-color;
   margin: 10px;
 
   @media only screen and (max-width: 600px) {
-    display: none;
+    display: block;
   }
 }
 

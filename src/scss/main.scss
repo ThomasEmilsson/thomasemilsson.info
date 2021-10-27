@@ -33,3 +33,7 @@ main {
 .content {
   flex: 1 0 auto;
 }
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}

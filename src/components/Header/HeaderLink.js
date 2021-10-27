@@ -2,14 +2,15 @@ import React from "react";
 
 import "./HeaderLink.scss";
 
-const HeaderLink = ({ name, selected, updateSelected }) => {
-  if (name === "Thomas Emilsson") {
+const HeaderLink = ({ name, selected, updateSelected, type }) => {
+  if (type === "menu") {
     return (
-      <a href={`#`} onClick={updateSelected}>
-        <h2 className={`header-inline ${selected === name ? "selected" : ""}`}>
-          Thomas Emilsson
-        </h2>
-        <p className="header-dot header-inline">.</p>
+      <a
+        className={`menu-item ${selected === name ? "selected" : ""}`}
+        onClick={updateSelected}
+        href={`#${name}`}
+      >
+        {name}
       </a>
     );
   } else

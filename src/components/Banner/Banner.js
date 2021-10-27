@@ -10,7 +10,7 @@ import {
 
 const Banner = () => {
   return (
-    <div className="banner-div">
+    <div id="home" className="banner-div">
       <h1 className="banner-title"> Welcome</h1>
       <div className="banner-description">
         <p>My name is Thomas Emilsson</p>
