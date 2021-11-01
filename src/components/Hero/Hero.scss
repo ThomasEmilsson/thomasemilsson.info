@@ -7,6 +7,10 @@
   height: 700px;
   margin-top: 62px;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
 }
 
 .image-container {
