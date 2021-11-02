@@ -13,19 +13,28 @@ const Hero = () => {
         <div className="hero-name-container">
           <p className="full-name">Thomas Emilsson</p>
           <p className="role-name"> Software Engineer / Web Developer</p>
-          <p className="description">
-            Thomas is a focused and driven software engineer, skilled in
-            programming, project management and integration development. His
-            international experiences enable him to use his skills and knowledge
-            with an innovative mindset. Whether as part of a team or
-            independently, he shows determination, adaptability and enthusiasm
-            when approaching a challenge.
-          </p>
+          {/* <p className="description"> In my spare time, you can find me climbing, making music, or working on side projects</p> */}
         </div>
       </div>
       <div className="hero-links-container">
         <div className="">
-          <p>Test</p>
+          <ul>
+            <li>
+              <b>Born:</b> April 29th, 1992
+            </li>
+            <li>
+              <b>Phone:</b> +46 70 780 2460
+            </li>
+            <li>
+              <b>Email:</b> thomasbp.emilsson@gmail.com
+            </li>
+            <li>
+              <b>Background:</b> Swedish-Peruvian
+            </li>
+            <li>
+              <b>Address:</b> Källdalsvägen 2, 47150 Bleket, Sweden
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -21,12 +21,13 @@ const IndexPage = () => {
         <title>Thomas Emilsson</title>
         <Header />
         <Hero />
+        <OptionList />
         {/* <div className="diagonal-background"> */}
         {/* <Banner /> */}
         {/* </div> */}
         {/* <OptionList /> */}
       </div>
-      <div className="diagonal-background-inverse" />
+      {/* <div className="diagonal-background-inverse" /> */}
       <Footer />
     </main>
   );
