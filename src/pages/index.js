@@ -19,10 +19,10 @@ const IndexPage = () => {
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <div className="content">
         <title>Thomas Emilsson</title>
-        <Hero />
         <Header />
+        <Hero />
         {/* <div className="diagonal-background"> */}
-        <Banner />
+        {/* <Banner /> */}
         {/* </div> */}
         {/* <OptionList /> */}
       </div>
