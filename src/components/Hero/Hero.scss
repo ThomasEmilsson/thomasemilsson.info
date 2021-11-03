@@ -31,17 +31,18 @@
   width: 50%;
   height: 100%;
   object-fit: cover;
+
   @media only screen and (max-width: 600px) {
     display: none;
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     width: 120%;
   }
 
-  @media only screen and (max-width: 1350px) {
-    width: 80%;
-  }
+  // @media only screen and (max-width: 1500px) {
+  //   width: 110%;
+  // }
 }
 
 .hero-title-container {
