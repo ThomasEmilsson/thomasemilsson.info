@@ -1,5 +1,12 @@
 import React from "react";
 import image from "../../images/image-hero.jpg";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaFacebookSquare,
+  FaSoundcloud,
+} from "react-icons/fa";
 
 import "../Hero/Hero.scss";
 
@@ -33,6 +40,23 @@ const Hero = () => {
             </li>
             <li>
               <b>Address:</b> Källdalsvägen 2, 47150 Bleket, Sweden
+            </li>
+            <li className="links">
+              <a href="www.google.com">
+                <FaLinkedin />
+              </a>
+              <a href="www.google.com">
+                <FaGithub />
+              </a>
+              <a href="www.google.com">
+                <FaSoundcloud />
+              </a>
+              <a href="www.google.com">
+                <FaInstagram />
+              </a>
+              <a href="www.google.com">
+                <FaFacebookSquare />
+              </a>
             </li>
           </ul>
         </div>

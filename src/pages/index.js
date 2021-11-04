@@ -8,6 +8,7 @@ import OptionList from "../components/OptionList/OptionList";
 import Hero from "../components/Hero/Hero";
 import Banner from "../components/Banner/Banner";
 import Footer from "../components/Footer/Footer";
+import Resume from "../components/Resume/Resume";
 
 const IndexPage = () => {
   return (
@@ -21,7 +22,8 @@ const IndexPage = () => {
         <title>Thomas Emilsson</title>
         <Header />
         <Hero />
-        <OptionList />
+        {/* <OptionList /> */}
+        <Resume />
         {/* <div className="diagonal-background"> */}
         {/* <Banner /> */}
         {/* </div> */}

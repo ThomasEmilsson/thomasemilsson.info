@@ -77,6 +77,10 @@
   line-height: 16px;
   font-size: 20px;
   font-weight: 400;
+  @media only screen and (max-width: 400px) {
+    font-size: 16px;
+    // line-height: 20px;
+  }
 }
 
 .hero-title-container .description {
@@ -123,4 +127,22 @@
   margin: 0px;
   text-decoration: none;
   list-style-type: none;
+}
+
+.hero-links-container .links {
+  color: $text-color;
+  font-size: 26px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.hero-links-container .links a {
+  color: $text-color;
+  font-size: 36px;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.hero-links-container .links a:hover {
+  color: $text-hover;
 }
