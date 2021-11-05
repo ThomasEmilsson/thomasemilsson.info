@@ -22,13 +22,28 @@ const Resume = () => {
         <div className="resume-title">Resume</div>
         <div className="resume-description">{latin}</div>
       </div>
+
       <div className="resume-experience-div">
-        <div className="resume-experience-icon">
+        <ul>
+          <li>
+            <div className="resume-experience-icon">
+              <FaBriefcase />
+            </div>
+          </li>
+          <li>
+            <div className="resume-experience-icon">
+              <FaBriefcase />
+            </div>
+          </li>
+        </ul>
+        {/* <div className="resume-experience-icon">
           <FaBriefcase />
-        </div>
+        </div> */}
         <div className="resume-experience-job">
-          <div className="resume-experience-job-name">
-            Example Job Title - Company Name
+          <div className="resume-experience-title-div">
+            <p className="resume-experience-name">{name}</p>
+            <p className="resume-experience-separator">{"|"}</p>
+            <p className="resume-experience-date">{`${date}`}</p>
           </div>
           <div className="resume-experience-job-role">Software Engineer</div>
           <div className="resume-experience-job-location">

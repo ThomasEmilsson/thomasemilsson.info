@@ -13,9 +13,8 @@
 .resume-introduction-div {
   padding-top: 20px;
   text-align: center;
-  text-justify: distribute-all-lines;
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
 
   @media only screen and (max-width: 1000px) {
     display: block;
@@ -31,4 +30,108 @@
   font-family: "Montserrat";
   font-size: 16px;
   text-align: center;
+}
+
+.resume-experience-div {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+
+  display: grid;
+
+  grid-template: 1fr / 1fr 1fr;
+
+  gap: 0px;
+  height: 100%;
+
+  @media only screen and (max-width: 800px) {
+    display: block;
+    width: 80%;
+  }
+}
+
+.resume-experience-icon {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  font-size: 25px;
+  color: $icon-color;
+
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 25%;
+  background-color: #cdcdcd;
+  display: flex;
+  align-items: center;
+  border: 3px solid $icon-color;
+
+  // @media only screen and (max-width: 800px) {
+  //   display: block;
+  //   // width: 80%;
+  // }
+}
+
+// .resume-experience-icon::before {
+//   // content: "";
+//   // background: rgb(255, 255, 255);
+//   // position: absolute;
+//   // left: 0 px;
+//   // top: 7 px;
+//   // width: 14 px;
+//   // height: 14 px;
+//   // border-radius: 50%;
+//   // border: 3 px solid rgb(99, 178, 255);
+//   // z-index: 60;
+// }
+
+.resume-experience-icon svg {
+  height: 56px;
+
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+    height: 50px;
+  }
+}
+
+.resume-experience-icon::after {
+}
+
+.resume-experience-job {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.resume-experience-div ul li::before {
+  // content: "";
+  // background: rgb(255, 255, 255);
+  // position: absolute;
+  // width: 25px;
+  // height: 25px;
+  // border-radius: 50%;
+  // border: 3px solid $icon-color;
+  // z-index: 60;
+}
+
+.resume-experience-div ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.resume-experience-div ul li {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+.resume-experience-div ul li::after {
+  width: 3px;
+  content: "";
+  position: absolute;
+  transform: translate(-50%, 0);
+  height: 50px;
+  margin-right: 1px;
+
+  background: $icon-color;
 }
