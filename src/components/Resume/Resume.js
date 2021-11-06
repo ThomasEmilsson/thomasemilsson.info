@@ -42,7 +42,6 @@ const Resume = () => {
         <div className="resume-experience-job">
           <div className="resume-experience-title-div">
             <p className="resume-experience-name">{name}</p>
-            <p className="resume-experience-separator">{"|"}</p>
             <p className="resume-experience-date">{`${date}`}</p>
           </div>
           <div className="resume-experience-job-role">Software Engineer</div>

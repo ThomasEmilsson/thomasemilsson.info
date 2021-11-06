@@ -62,29 +62,15 @@
   margin: 0 auto;
   justify-content: center;
   border-radius: 25%;
-  background-color: #cdcdcd;
+  background-color: $background-color-blue;
   display: flex;
   align-items: center;
   border: 3px solid $icon-color;
 
-  // @media only screen and (max-width: 800px) {
-  //   display: block;
-  //   // width: 80%;
-  // }
+  @media only screen and (max-width: 800px) {
+    display: block;
+  }
 }
-
-// .resume-experience-icon::before {
-//   // content: "";
-//   // background: rgb(255, 255, 255);
-//   // position: absolute;
-//   // left: 0 px;
-//   // top: 7 px;
-//   // width: 14 px;
-//   // height: 14 px;
-//   // border-radius: 50%;
-//   // border: 3 px solid rgb(99, 178, 255);
-//   // z-index: 60;
-// }
 
 .resume-experience-icon svg {
   height: 56px;
@@ -103,17 +89,6 @@
   grid-column: 2 / 3;
 }
 
-.resume-experience-div ul li::before {
-  // content: "";
-  // background: rgb(255, 255, 255);
-  // position: absolute;
-  // width: 25px;
-  // height: 25px;
-  // border-radius: 50%;
-  // border: 3px solid $icon-color;
-  // z-index: 60;
-}
-
 .resume-experience-div ul {
   padding: 0px;
   margin: 0px;
@@ -124,6 +99,10 @@
   position: relative;
   padding-left: 50px;
   margin-bottom: 40px;
+
+  @media only screen and (max-width: 800px) {
+    padding-left: 0px;
+  }
 }
 .resume-experience-div ul li::after {
   width: 3px;
@@ -134,4 +113,8 @@
   margin-right: 1px;
 
   background: $icon-color;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 }
