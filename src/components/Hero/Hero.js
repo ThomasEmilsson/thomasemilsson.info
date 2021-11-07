@@ -12,7 +12,7 @@ import "../Hero/Hero.scss";
 
 const Hero = () => {
   return (
-    <div class="hero-container">
+    <div className="hero-container">
       <div className="image-container">
         <img className="hero-image" src={image} alt="image" />
       </div>

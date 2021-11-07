@@ -12,8 +12,9 @@ const Resume = () => {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
   let latinShort =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
-  let { name, date, role, description, location, technologies } =
-    CVObject.Experience;
+
+  content.Experience.forEach((data) => console.log(data));
+  // console.log(content.Experience);
 
   return (
     <div className="resume-div">
@@ -40,17 +41,18 @@ const Resume = () => {
             </div>
             <div className="resume-experience-details-div">
               <div className="resume-experience-title">
-                <p className="resume-experience-role">Web Developer </p>
-                <p className="resume-experience-company"> at Empower & Lead</p>
-                <p className="resume-experience-date">
-                  July 2019 - November 2019
+                <p className="resume-experience-role">Integration Developer </p>
+                <p className="resume-experience-company">
+                  {" "}
+                  Trafikförvaltningen ICC
                 </p>
+                <p className="resume-experience-date">March 2019 - Present</p>
               </div>
               <div className="resume-experience-description-div">
                 <p className="resume-experience-description-location">
                   Stockholm, Sweden
                 </p>
-                <p className="resume-experience-description">
+                <div className="resume-experience-description">
                   <ul>
                     <li>
                       Coordinated closely with designer and delivered finished
@@ -61,7 +63,7 @@ const Resume = () => {
                       adjustments based on feedback/concerns
                     </li>
                   </ul>
-                </p>
+                </div>
                 <p className="resume-experience-description-location"></p>
               </div>
             </div>
