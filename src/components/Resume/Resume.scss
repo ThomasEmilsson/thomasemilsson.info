@@ -18,7 +18,7 @@
 
   @media only screen and (max-width: 1000px) {
     display: block;
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -38,28 +38,34 @@
   width: 80%;
   text-align: center;
 
-  display: grid;
-
-  grid-template: 1fr / 1fr 1fr;
-
-  gap: 0px;
-  height: 100%;
-
   @media only screen and (max-width: 800px) {
     display: block;
-    width: 80%;
+    width: 90%;
+  }
+}
+.resume-experience-icon-div {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 380px) {
+    display: inline-block;
+    padding-bottom: 0px;
   }
 }
 
 .resume-experience-icon {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
   font-size: 25px;
   color: $icon-color;
 
   height: 50px;
   width: 50px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: 50px;
   justify-content: center;
   border-radius: 25%;
   background-color: $background-color-blue;
@@ -68,25 +74,81 @@
   border: 3px solid $icon-color;
 
   @media only screen and (max-width: 800px) {
-    display: block;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+
+    height: 40px;
+    width: 40px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    height: 30px;
+    width: 30px;
+  }
+
+  @media only screen and (max-width: 380px) {
+    display: none;
   }
 }
 
 .resume-experience-icon svg {
-  height: 56px;
+  height: 50px;
 
   @media only screen and (max-width: 800px) {
+    height: 40px;
+  }
+
+  @media only screen and (max-width: 500px) {
     display: inline-block;
-    height: 50px;
+    height: 20px;
   }
 }
 
-.resume-experience-icon::after {
+.resume-experience-icon:hover {
+  background-color: $color-green;
+  cursor: pointer;
 }
 
-.resume-experience-job {
+.resume-experience-role-mobile {
+  display: none;
+  font-weight: 600;
+  margin: 0px;
+
+  @media only screen and (max-width: 800px) {
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 380px) {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.resume-experience-company-mobile {
+  display: none;
+  margin: 0px;
+
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+  }
+}
+
+.resume-experience-details-div {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
+  text-align: left;
+  width: 80%;
+
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
 }
 
 .resume-experience-div ul {
@@ -95,26 +157,119 @@
   list-style: none;
 }
 
-.resume-experience-div ul li {
+.resume-experience-item {
+  display: grid;
+
+  grid-template: 1fr / 1fr 2fr;
+  gap: 0px;
+  height: 100%;
+
   position: relative;
-  padding-left: 50px;
-  margin-bottom: 40px;
 
   @media only screen and (max-width: 800px) {
     padding-left: 0px;
+    display: block;
+    text-align: left;
   }
 }
-.resume-experience-div ul li::after {
+.resume-experience-icon::after {
   width: 3px;
   content: "";
   position: absolute;
-  transform: translate(-50%, 0);
-  height: 50px;
-  margin-right: 1px;
+  z-index: -1;
+  top: 0px;
+  height: 100%;
 
   background: $icon-color;
 
   @media only screen and (max-width: 800px) {
     display: none;
+  }
+}
+
+.resume-experience-title {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 800px) {
+    display: block;
+  }
+}
+
+.resume-experience-role {
+  font-size: 18px;
+  padding-right: 5px;
+  font-weight: 600;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.resume-experience-company {
+  font-size: 16px;
+
+  @media only screen and (max-width: 1300px) {
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.resume-experience-date {
+  margin-left: auto;
+
+  @media only screen and (max-width: 1300px) {
+    margin: 0;
+  }
+}
+
+.resume-experience-title p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  @media only screen and (max-width: 1300px) {
+    margin-bottom: 10px;
+  }
+}
+
+.resume-experience-description-div {
+  @media only screen and (max-width: 800px) {
+    // text-align: center;
+  }
+}
+
+.resume-experience-description-location {
+  font-family: "Lora";
+  font-size: 16px;
+  font-style: italic;
+  margin: 0px;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 16px;
+  }
+}
+
+.resume-experience-description ul {
+  padding-left: 25px;
+
+  @media only screen and (max-width: 800px) {
+  }
+}
+
+.resume-experience-description ul li {
+  list-style: disc;
+  padding-left: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+
+  @media only screen and (max-width: 800px) {
+    text-align: justify;
+    padding-left: 0px;
   }
 }

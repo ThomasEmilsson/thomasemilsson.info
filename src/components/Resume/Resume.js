@@ -25,32 +25,53 @@ const Resume = () => {
 
       <div className="resume-experience-div">
         <ul>
-          <li>
-            <div className="resume-experience-icon">
-              <FaBriefcase />
+          <li className="resume-experience-item">
+            <div className="resume-experience-icon-div">
+              <div className="resume-experience-icon">
+                <FaBriefcase />
+              </div>
+              <p className="resume-experience-role-mobile">
+                {" "}
+                Web Developer&nbsp;
+              </p>
+              <p className="resume-experience-company-mobile">
+                {` at Empower & Lead`}
+              </p>
+            </div>
+            <div className="resume-experience-details-div">
+              <div className="resume-experience-title">
+                <p className="resume-experience-role">Web Developer </p>
+                <p className="resume-experience-company"> at Empower & Lead</p>
+                <p className="resume-experience-date">
+                  July 2019 - November 2019
+                </p>
+              </div>
+              <div className="resume-experience-description-div">
+                <p className="resume-experience-description-location">
+                  Stockholm, Sweden
+                </p>
+                <p className="resume-experience-description">
+                  <ul>
+                    <li>
+                      Coordinated closely with designer and delivered finished
+                      product on a deadline
+                    </li>
+                    <li>
+                      Communicated and presented work modularly, allowing for
+                      adjustments based on feedback/concerns
+                    </li>
+                  </ul>
+                </p>
+                <p className="resume-experience-description-location"></p>
+              </div>
             </div>
           </li>
-          <li>
+          <li className="resume-experience-item">
             <div className="resume-experience-icon">
               <FaBriefcase />
             </div>
           </li>
         </ul>
-        {/* <div className="resume-experience-icon">
-          <FaBriefcase />
-        </div> */}
-        <div className="resume-experience-job">
-          <div className="resume-experience-title-div">
-            <p className="resume-experience-name">{name}</p>
-            <p className="resume-experience-date">{`${date}`}</p>
-          </div>
-          <div className="resume-experience-job-role">Software Engineer</div>
-          <div className="resume-experience-job-location">
-            Sweden, Stockholm
-          </div>
-          <div className="resume-experience-job-description">{latinShort}</div>
-        </div>
-        <div className="resume-experience-technologies"></div>
       </div>
     </div>
   );
