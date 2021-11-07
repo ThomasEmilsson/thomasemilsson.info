@@ -33,10 +33,10 @@ const Resume = () => {
               </div>
               <p className="resume-experience-role-mobile">
                 {" "}
-                Web Developer&nbsp;
+                Integration Developer&nbsp;
               </p>
               <p className="resume-experience-company-mobile">
-                {` at Empower & Lead`}
+                Trafikförvaltningen ICC
               </p>
             </div>
             <div className="resume-experience-details-div">
