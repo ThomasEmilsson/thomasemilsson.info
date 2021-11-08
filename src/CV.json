@@ -1,26 +1,27 @@
 {
   "Experiences": [
     {
-      "name": "Trafikförvaltningen ICC",
+      "name": "Trafikförvaltningen",
       "date": "March 2019 - Present",
       "role": "Integration Developer",
       "location": "Stockholm, Sweden",
       "description": [
-        "Developed 8 integrations and 15 APIs to production and manage over 100 integrations at the Swedish Transport Administration (Trafikförvaltningen) with Mule 3 and Mule 4",
-        "Built a script to automate publishing and updating APIs",
-        "Wrote the onboarding documentation as well the system and developer documention for the 8 integrations and 15 APIS among other general developer documentation.",
-        "Designed and developed a visual web page that displays the status of the integrations (up, down, slow)"
+        "Developed 8 integrations and 15 APIs to production and manage over 100 integrations",
+        "Built a shell script to automate publishing, updating and deploying APIs",
+        "Designed and developed a visual web page that displays the status of the integrations using D3 and JavaScript",
+        "Wrote the onboarding documentation as well the system and developer documention for the 8 integrations and 15 APIS among other general developer documentation."
       ],
-      "technologies": "Mule 3, Mule 4, XML, Linux, JavaScript, bash scripting, Terraform, bitbucket pipelines, AWS: Lambda, CloudWatch, SQS"
+      "technologies": "AWS Lambda, AWS Cloudwatch, AWS SQS, Mule 3/4, Terraform, XML, Linux, JavaScript, bash, Python, SQL"
     },
     {
-      "name": "Trafikförvaltningen TMS",
+      "name": "Trafikförvaltningen",
       "date": "May 2021 - August 2021",
       "role": "Integration Developer",
       "location": "Stockholm, Sweden",
       "description": [
-        "Drafted and built an API to be built that traffics large quantites of data.",
-        "Assisted in maintaining and updating existing services"
+        "Drafted and built an API that traffics large quantites of data",
+        "Assisted in maintaining and updating existing services",
+        "Updated tests to fulfill new requirements"
       ],
       "technologies": "Python, Terraform, AWS: Lambda, SQS, SNS, API Gateway, Cognito"
     },
@@ -30,6 +31,7 @@
       "role": "Web Developer",
       "location": "Stockholm, Sweden",
       "description": [
+        "Built a React website for a nonprofit organization",
         "Coordinated closely with designer and delivered finished product on a deadline",
         "Communicated and presented work modularly, allowing for adjustments based on feedback/concerns"
       ],
@@ -41,8 +43,10 @@
       "role": "Software Engineer | .NET Developer",
       "location": "Gothenburg, Sweden",
       "description": [
-        "Worked as a full stack .NET developer and have worked on several projects including the development of a complete reminder service to manage payments planning, as well as an invoicing system to print/track invoices",
-        "Assisted in maintaining and updating the existing web services while also redesigning and building the company's website from a marketing perspective using the CMS, DNN"
+        "Developed a complete reminder service in C# to manage payment deadlines",
+        "Developed an invoicing system in C# to print and track invoices, hooked up to the reminder system",
+        "Assisted in maintaing and updating existing web services",
+        "Re-designed and developed the company's website with a marketing perspective from scratch"
       ],
       "technologies": "C#, ASP.NET, DNN, JavaScript, HTML, CSS"
     },
@@ -54,7 +58,7 @@
       "description": [
         "Led supervision sessions where I advised and supported Software Engineering students in their assignments and projects",
         "Assisted in teaching UML and Software Architecture",
-        "Acted as Product Owner for a project over a 6 month period where I assessed their goals helped shape and prioritize their tasks and project to completion"
+        "Acted as Product Owner for a project over a 6 month period and assessed their goals to help shape and prioritize their tasks and project to completion"
       ]
     },
     {
@@ -114,10 +118,9 @@
       "role": "Web Developer",
       "description": [
         "Hobby project which allows couples to create custom date-nights",
-        "Application stores all ideas and shuffles to pick one based on tags/filters/search",
-        "MERN Stack"
+        "Application stores all ideas and shuffles to pick one based on tags/filters/search"
       ],
-      "technologies": "React, JavaScript, CSS, HTML"
+      "technologies": "React, Express, Node, MongoDB"
     },
     {
       "name": "Self-Driving Car",
