@@ -1,0 +1,231 @@
+@import "../../scss/colors.scss";
+
+.resume-experience-div {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 80%;
+
+  @media only screen and (max-width: 800px) {
+    display: block;
+    width: 96%;
+  }
+}
+.resume-experience-icon-div {
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+}
+
+.resume-experience-icon {
+  font-size: 25px;
+  color: $icon-color;
+
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: 50px;
+  justify-content: center;
+  border-radius: 25%;
+  background-color: $background-color-blue;
+  display: flex;
+  border: 3px solid $icon-color;
+
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+
+    height: 40px;
+    width: 40px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    height: 30px;
+    width: 30px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    display: none;
+  }
+}
+
+.resume-experience-icon svg {
+  height: 50px;
+
+  @media only screen and (max-width: 800px) {
+    height: 40px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    display: inline-block;
+    height: 20px;
+  }
+}
+
+.resume-experience-icon:hover {
+  background-color: $color-green;
+  cursor: pointer;
+}
+
+.resume-experience-role-mobile {
+  display: none;
+  font-weight: 600;
+  margin: 0px;
+
+  @media only screen and (max-width: 800px) {
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+}
+
+.resume-experience-company-mobile {
+  display: none;
+  margin: 0px;
+
+  @media only screen and (max-width: 800px) {
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 450px) {
+    display: block;
+    // padding-bottom: 5px;
+  }
+}
+
+.resume-experience-details-div {
+  text-align: left;
+  width: 80%;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+.resume-experience-div ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.resume-experience-item {
+  display: grid;
+
+  grid-template: 1fr / 1fr 2fr;
+  gap: 0px;
+  height: 100%;
+
+  position: relative;
+
+  @media only screen and (max-width: 800px) {
+    padding-left: 0px;
+    display: block;
+    text-align: left;
+  }
+}
+
+.draw-line::after {
+  width: 3px;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  height: 100%;
+
+  background: $icon-color;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.resume-experience-title {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  @media only screen and (max-width: 800px) {
+    display: block;
+  }
+}
+
+.resume-experience-role {
+  font-size: 18px;
+  padding-right: 5px;
+  font-weight: 600;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.resume-experience-company {
+  font-size: 16px;
+
+  @media only screen and (max-width: 1400px) {
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.resume-experience-date {
+  margin-left: auto;
+
+  @media only screen and (max-width: 1400px) {
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 450px) {
+    font-size: 14px;
+  }
+}
+.resume-experience-description-div {
+  @media only screen and (max-width: 800px) {
+  }
+}
+
+.resume-experience-description-location {
+  font-family: "Lora";
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0px;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 16px;
+  }
+}
+
+.resume-experience-description ul {
+  padding-left: 25px;
+
+  @media only screen and (max-width: 800px) {
+  }
+}
+
+.resume-experience-description ul li {
+  list-style: disc;
+  padding-left: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+
+  @media only screen and (max-width: 800px) {
+    text-align: justify;
+    padding-left: 0px;
+  }
+}
