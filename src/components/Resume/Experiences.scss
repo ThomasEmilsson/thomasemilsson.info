@@ -1,10 +1,11 @@
 @import "../../scss/colors.scss";
 
 .resume-experience-div {
-  padding-top: 50px;
   margin: 0 auto;
-  width: 80%;
 
+  @media only screen and (max-width: 1200px) {
+    // width: 80%;
+  }
   @media only screen and (max-width: 800px) {
     display: block;
     width: 96%;
@@ -181,13 +182,6 @@
 .resume-experience-company {
   font-size: 16px;
 
-  @media only screen and (max-width: 1400px) {
-    padding-right: 120px;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    padding-right: 0px;
-  }
   @media only screen and (max-width: 800px) {
     display: none;
   }
@@ -196,8 +190,9 @@
 .resume-experience-date {
   margin-left: auto;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 1200px) {
     margin: 0;
+    width: 100%;
   }
 
   @media only screen and (max-width: 450px) {
@@ -236,5 +231,9 @@
   @media only screen and (max-width: 800px) {
     text-align: justify;
     padding-left: 0px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    text-align: left;
   }
 }

@@ -12,10 +12,6 @@
     margin: 0px;
     height: auto;
   }
-
-  @media only screen and (max-width: 1200px) {
-    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
-  }
 }
 
 .image-container {
@@ -37,16 +33,11 @@
   }
 
   @media only screen and (max-width: 1200px) {
-    width: 120%;
+    width: 100%;
   }
-
-  // @media only screen and (max-width: 1500px) {
-  //   width: 110%;
-  // }
 }
 
 .hero-title-container {
-  // background-color: #dde8fc;
   background-size: cover;
   height: 100%;
   display: flex;
@@ -79,7 +70,6 @@
   font-weight: 400;
   @media only screen and (max-width: 400px) {
     font-size: 16px;
-    // line-height: 20px;
   }
 }
 
@@ -101,8 +91,6 @@
 }
 
 .hero-links-container {
-  // background-color: #343434;
-  // color: white;
   padding-left: 16px;
   height: 100%;
   grid-row: 2 / 3;

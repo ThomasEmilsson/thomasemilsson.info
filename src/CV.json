@@ -2,7 +2,7 @@
   "Experiences": [
     {
       "name": "Trafikförvaltningen",
-      "date": "March 2019 - Present",
+      "date": "Mar 2019 - Present",
       "role": "Integration Developer",
       "location": "Stockholm, Sweden",
       "description": [
@@ -15,7 +15,7 @@
     },
     {
       "name": "Trafikförvaltningen",
-      "date": "May 2021 - August 2021",
+      "date": "May 2021 - Aug 2021",
       "role": "Integration Developer",
       "location": "Stockholm, Sweden",
       "description": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "Empower & Lead",
-      "date": "July 2019 - November 2019",
+      "date": "July 2019 - Nov 2019",
       "role": "Web Developer",
       "location": "Stockholm, Sweden",
       "description": [
@@ -39,7 +39,7 @@
     },
     {
       "name": "Comfact",
-      "date": "May 2017 - August 2018",
+      "date": "May 2017 - Aug 2018",
       "role": "Software Engineer | .NET Developer",
       "location": "Gothenburg, Sweden",
       "description": [
@@ -52,7 +52,7 @@
     },
     {
       "name": "Chalmers",
-      "date": "September 2016 - May 2017",
+      "date": "Sept 2016 - May 2017",
       "role": "Teaching Assistant",
       "location": "Gothenburg, Sweden",
       "description": [
@@ -63,7 +63,7 @@
     },
     {
       "name": "Randstad",
-      "date": "September 2015 - May 2017",
+      "date": "Sept 2015 - May 2017",
       "role": "Consultant",
       "location": "Gothenburg, Sweden",
       "description": [
@@ -72,7 +72,7 @@
     },
     {
       "name": "Middlesex University",
-      "date": "September 2013 - June 2013",
+      "date": "Sept 2013 - June 2013",
       "role": "Student Representative",
       "location": "London, England",
       "description": [
@@ -124,7 +124,7 @@
     },
     {
       "name": "Self-Driving Car",
-      "date": "January 2017 - June 2017",
+      "date": "Jan 2017 - June 2017",
       "role": "Software Engineer and Scrum Master",
       "description": [
         "Programmed the software that allows a car to drive while detecting lanes/obstructions and handling intersections"
@@ -133,7 +133,7 @@
     },
     {
       "name": "Stena Line - Desktop Application",
-      "date": "January 2017 - June 2017",
+      "date": "Jan 2017 - June 2017",
       "role": "Software Engineer and Scrum Master",
       "description": [
         "Engineered and redesigned the software (from scratch) that boat captains use daily to submit data.",
@@ -144,7 +144,7 @@
     },
     {
       "name": "Baldr",
-      "date": "September 2016 - January 2017",
+      "date": "Sept 2016 - Jan 2017",
       "role": "iOS Developer and Scrum Master",
       "description": [
         "Developed a communication client using MQTT that controls lights in a home via an iOS application",
@@ -154,7 +154,7 @@
     },
     {
       "name": "The Smartest Car",
-      "date": "January 2016 - May 2016",
+      "date": "Jan 2016 - May 2016",
       "role": "Android Developer and Scrum Master",
       "description": [
         "Designed and Developed an Android Application to remotely control an Arduino-based SmartCar",
