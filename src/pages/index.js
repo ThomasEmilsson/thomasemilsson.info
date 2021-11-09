@@ -9,6 +9,7 @@ import Hero from "../components/Hero/Hero";
 import Banner from "../components/Banner/Banner";
 import Footer from "../components/Footer/Footer";
 import Resume from "../components/Resume/Resume";
+import About from "../components/About/About";
 
 const IndexPage = () => {
   return (
@@ -18,12 +19,13 @@ const IndexPage = () => {
         content="user-scalable=no, width=device-width, initial-scale=1.0"
       />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <div className="content">
+      <div id="home" className="content">
         <title>Thomas Emilsson</title>
         <Header />
         <Hero />
         {/* <OptionList /> */}
         <Resume />
+        <About />
         {/* <div className="diagonal-background"> */}
         {/* <Banner /> */}
         {/* </div> */}

@@ -53,6 +53,11 @@ const Header = () => {
             updateSelected={updateSelected}
           />
           <HeaderLink
+            name="about me"
+            selected={selected}
+            updateSelected={updateSelected}
+          />
+          <HeaderLink
             name="portfolio"
             selected={selected}
             updateSelected={updateSelected}
@@ -71,6 +76,9 @@ const Header = () => {
           </a>
           <a href="#resume" className="menu-item" onClick={goToItem}>
             resume
+          </a>
+          <a href="#about-me" className="menu-item" onClick={goToItem}>
+            about me
           </a>
           <a href="#portfolio" className="menu-item" onClick={goToItem}>
             portfolio

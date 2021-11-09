@@ -36,10 +36,7 @@ const Hero = () => {
               <b>Email:</b> thomasbp.emilsson@gmail.com
             </li>
             <li>
-              <b>Background:</b> Swedish-Peruvian
-            </li>
-            <li>
-              <b>Address:</b> Källdalsvägen 2, 47150 Bleket, Sweden
+              <b>Address:</b> Sweden
             </li>
             <li className="links">
               <a href="www.google.com">
