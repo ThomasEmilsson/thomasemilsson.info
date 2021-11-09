@@ -12,7 +12,10 @@ const Education = (content) => {
     <div className="resume-education-div">
       <ul>
         {education.map(
-          ({ university, graduation, location, degree, thesis }, index) => (
+          (
+            { university, graduation, location, degree, thesis, description },
+            index
+          ) => (
             <li key={index} className="resume-education-item">
               <div className="resume-education-icon-div">
                 {index + 1 != length ? (
@@ -35,15 +38,26 @@ const Education = (content) => {
                   <p className="resume-education-university">{university}</p>
                   <p className="resume-education-date">{graduation}</p>
                 </div>
+                <div className="resume-education-description-div">
+                  <div className="resume-education-description">
+                    {description.length > 0 ? (
+                      <ul>
+                        {description.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                    ) : null}
+                  </div>
 
-                {thesis == null ? null : (
-                  <p className="">
-                    <b>Thesis:</b> {thesis}
+                  {thesis == null ? null : (
+                    <p className="resume-thesis">
+                      <b>Thesis:</b> {thesis}
+                    </p>
+                  )}
+                  <p className="resume-education-description-location">
+                    {location}
                   </p>
-                )}
-                <p className="resume-education-description-location">
-                  {location}
-                </p>
+                </div>
               </div>
             </li>
           )

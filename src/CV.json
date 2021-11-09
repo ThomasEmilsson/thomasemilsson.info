@@ -77,7 +77,7 @@
       "location": "London, England",
       "description": [
         "Acted as liaison between the students and the university board",
-        "Responsible for gathering students feedback/suggestions and representing my peers during board meetings"
+        "Responsible for gathering students feedback and suggestions and representing my peers during board meetings"
       ]
     }
   ],
@@ -86,29 +86,51 @@
       "university": "Gothenburg University",
       "graduation": "August 2018",
       "location": "Gothenburg, Sweden",
-      "degree": "BSc Software Engineering",
-      "thesis": "Mitigating Trust Issues with Blockchain-Based Applications"
+      "degree": "Software Engineering",
+      "thesis": "Mitigating Trust Issues with Blockchain-Based Applications",
+      "description": [
+        "Bachelor of Science in Software Engineering and Management",
+        "IT Case Competition 2016 - Denmark, TDC Group",
+        "CopenHacks Denmark participant 2016",
+        "Black Dot, Let's Collaborate sustainable innovation participant 2018",
+        "Black Dot, Let's Collaborate better health and well-being participant 2017"
+      ]
     },
     {
       "university": "FreeCodeCamp",
       "graduation": "May 2018",
       "location": "Gothenburg, Sweden",
-      "degree": "Full Stack Web Development Certification",
-      "thesis": null
+      "degree": "Full Stack Web Development",
+      "thesis": null,
+      "description": [
+        "Responsive Web Design Certification",
+        "JavaScript Algorithms and Data Structures Certification",
+        "Front End Development Libraries Certification",
+        "Back End Development and APIs Certification"
+      ]
     },
     {
       "university": "Middlesex University",
       "graduation": "August 2015",
       "location": "London, England",
-      "degree": "AA Music Production and Business",
-      "thesis": null
+      "degree": "Music Prod. and Business",
+      "thesis": null,
+      "description": [
+        "Associates Degree in Music Production and Business",
+        "Student Representative"
+      ]
     },
     {
       "university": "Awty International",
       "graduation": "July 2010",
       "location": "Houston, Texas",
       "degree": "International Baccalaureate",
-      "thesis": null
+      "thesis": null,
+      "description": [
+        "Higher Levels in Computer Science, Physics, Economics, and Math",
+        "President of Computer Club",
+        "Cross Country State Champion 2010"
+      ]
     }
   ],
   "Project": [

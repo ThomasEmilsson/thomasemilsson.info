@@ -12,19 +12,17 @@ const Resume = () => {
   return (
     <div id="resume" className="resume-div">
       <div className="resume-separator"></div>
-      <div className="resume-introduction-div">
-        <div className="resume-title">Resume</div>
-      </div>
+      <div className="resume-header"> Resume </div>
 
       <Experiences content={content.Experiences} />
 
       <div className="resume-separator"></div>
 
-      <div className="resume-introduction-div">
-        <div className="resume-title">Studies</div>
-      </div>
+      <div className="resume-header">Studies</div>
 
       <Education content={content.Education} />
+
+      <div className="resume-separator"></div>
     </div>
   );
 };
