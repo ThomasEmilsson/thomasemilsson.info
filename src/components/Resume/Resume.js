@@ -4,19 +4,27 @@ import "../Content/Experience";
 import "./Resume.scss";
 import CVObject from "../../CV.json";
 import Experiences from "./Experiences";
+import Education from "./Education";
 
 const Resume = () => {
   let content = CVObject;
 
   return (
-    <div className="resume-div">
+    <div id="resume" className="resume-div">
       <div className="resume-separator"></div>
       <div className="resume-introduction-div">
         <div className="resume-title">Resume</div>
-        <div className="resume-description">{}</div>
       </div>
 
       <Experiences content={content.Experiences} />
+
+      <div className="resume-separator"></div>
+
+      <div className="resume-introduction-div">
+        <div className="resume-title">Studies</div>
+      </div>
+
+      <Education content={content.Education} />
     </div>
   );
 };

@@ -5,8 +5,6 @@ import "./Experiences.scss";
 import { FaBriefcase } from "react-icons/fa";
 
 const Experiences = (content) => {
-  //   const { name, date, role, description, location, technologies } = content;
-
   let experiences = content.content;
 
   let length = experiences.length;
