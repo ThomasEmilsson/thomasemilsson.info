@@ -3,3 +3,17 @@
 // [type="checkbox"]:after {
 //   content: attr(value);
 // }
+
+.indent-1 {
+  padding-left: 10px;
+}
+.indent-2 {
+  padding-left: 20px;
+}
+.indent-3 {
+  padding-left: 30px;
+}
+
+// [class^="indent-"] {
+//   padding-left: 20px;
+// }
