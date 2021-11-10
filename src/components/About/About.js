@@ -4,10 +4,11 @@ import "./About.scss";
 
 const About = () => {
   return (
-    <div>
-      <ReadOnlyCheckBox title="test" status={false} indent={1} />
-      <ReadOnlyCheckBox title="test" status={true} indent={2} />
-      <ReadOnlyCheckBox title="test" status={false} indent={3} />
+    <div id="about-me" className="about-me-div">
+      <div className="about-me-header">About Me</div>
+
+      {/* Horizontal Timeline Here - Scrollable */}
+      {/* Turns into vertical list in smaller screens*/}
     </div>
   );
 };
@@ -20,12 +21,7 @@ const ReadOnlyCheckBox = ({ title, status, indent }) => {
   return (
     <div className={`indent-${indent}`}>
       <label>
-        <input
-          type="checkbox"
-          // className={`indent-${indent}`}
-          onChange={doNothing}
-          checked={status}
-        />
+        <input type="checkbox" onChange={doNothing} checked={status} />
         <span>{title}</span>
       </label>
     </div>

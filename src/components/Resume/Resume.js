@@ -12,6 +12,7 @@ const Resume = () => {
   return (
     <div id="resume" className="resume-div">
       <div className="resume-separator"></div>
+
       <div className="resume-header"> Resume </div>
 
       <Experiences content={content.Experiences} />

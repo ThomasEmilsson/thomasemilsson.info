@@ -53,7 +53,7 @@ const Header = () => {
             updateSelected={updateSelected}
           />
           <HeaderLink
-            name="about me"
+            name="about-me"
             selected={selected}
             updateSelected={updateSelected}
           />
