@@ -5,7 +5,6 @@ import "../scss/main.scss";
 
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
-import Banner from "../components/Banner/Banner";
 import Footer from "../components/Footer/Footer";
 import Resume from "../components/Resume/Resume";
 import About from "../components/About/About";
@@ -22,15 +21,9 @@ const IndexPage = () => {
         <title>Thomas Emilsson</title>
         <Header />
         <Hero />
-        {/* <OptionList /> */}
         <Resume />
         <About />
-        {/* <div className="diagonal-background"> */}
-        {/* <Banner /> */}
-        {/* </div> */}
-        {/* <OptionList /> */}
       </div>
-      {/* <div className="diagonal-background-inverse" /> */}
       <Footer />
     </main>
   );

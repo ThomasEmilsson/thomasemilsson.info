@@ -263,5 +263,85 @@
         }
       ]
     }
+  ],
+  "Travels": [
+    {
+      "country": "sweden",
+      "location": "Kalmar, Sweden",
+      "description": "Born",
+      "date": "1992-1998"
+    },
+    {
+      "country": "japan",
+      "location": "Tokyo, Japan",
+      "description": "1st - 4th grade",
+      "date": "1998-2002"
+    },
+    {
+      "country": "england",
+      "location": "London, England",
+      "description": "5th grade",
+      "date": "2002-2003"
+    },
+    {
+      "country": "america",
+      "location": "Houston, Texas",
+      "description": "6th-12th grade",
+      "date": "2003-2010"
+    },
+    {
+      "country": "sweden",
+      "location": "Gothenburg, Sweden",
+      "description": "Gap Year",
+      "date": "2010-2011"
+    },
+    {
+      "country": "spain",
+      "location": "Malaga, Spain",
+      "description": "Gap Year",
+      "date": "2010-2011"
+    },
+    {
+      "country": "scotland",
+      "location": "Glasgow, Scotland",
+      "description": "UWS University",
+      "date": "2011-2012"
+    },
+    {
+      "country": "belgium",
+      "location": "Kortrijk, Belgium",
+      "description": "DAE University",
+      "date": "2011-2013"
+    },
+    {
+      "country": "scotland",
+      "location": "Ayr, Scotland",
+      "description": "Middlesex University",
+      "date": "2013-2014"
+    },
+    {
+      "country": "panama",
+      "location": "Panama City, Panama",
+      "description": "Middlesex University",
+      "date": "2013-2015"
+    },
+    {
+      "country": "sweden",
+      "location": "Gothenburg, Sweden",
+      "description": "University and Work",
+      "date": "2013-2018"
+    },
+    {
+      "country": "sweden",
+      "location": "Stockholm, Sweden",
+      "description": "Work",
+      "date": "2018-2021"
+    },
+    {
+      "country": "sweden",
+      "location": "Tjörn, Sweden",
+      "description": "Work",
+      "date": "2021-current"
+    }
   ]
 }
