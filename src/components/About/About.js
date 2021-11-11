@@ -2,10 +2,14 @@ import React from "react";
 
 import "./About.scss";
 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
 import CVObject from "../../CV.json";
 
 const About = () => {
-  let content = CVObject.Travels;
+  let travels = CVObject.Travels;
+
+  let length = travels.length;
 
   return (
     <div id="about-me" className="about-me-div">
@@ -13,16 +17,18 @@ const About = () => {
       {/* Horizontal Timeline Here - Scrollable */}
       {/* Turns into vertical list in smaller screens*/}
       <div className="timeline-div">
-        <ul>
-          {content.map(({ country, location, description, date }, index) => (
-            <li key={index} className="timeline-item">
+        <FaChevronLeft className="timeline-left" />
+        <div className="timeline-scroll-div">
+          {travels.map(({ country, location, description, date }, index) => (
+            <div key={index} className="timeline-item">
               <div>{location}</div>
               <div>{description}</div>
               <div>{date}</div>
               <Flag country={country} />
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
+        <FaChevronRight className="timeline-right" />
       </div>
     </div>
   );
