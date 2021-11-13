@@ -13,6 +13,8 @@ const Header = () => {
   const [width, setWidth] = useState();
 
   useEffect(() => {
+    if (isBrowser) setWidth(window.innerWidth);
+
     function updateWidth() {
       if (isBrowser) setWidth(window.innerWidth);
       if (width > 600) {
