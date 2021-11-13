@@ -22,9 +22,9 @@ const IndexPage = () => {
         <Header />
         <Hero />
         <Resume />
-        <About />
+        {/* <About /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 };

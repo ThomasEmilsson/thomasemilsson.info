@@ -52,7 +52,7 @@ const Header = () => {
             selected={selected}
             updateSelected={updateSelected}
           />
-          <HeaderLink
+          {/* <HeaderLink
             name="about-me"
             selected={selected}
             updateSelected={updateSelected}
@@ -66,7 +66,7 @@ const Header = () => {
             name="contact"
             selected={selected}
             updateSelected={updateSelected}
-          />
+          /> */}
         </div>
       )}
       {menu ? (
@@ -77,7 +77,7 @@ const Header = () => {
           <a href="#resume" className="menu-item" onClick={goToItem}>
             resume
           </a>
-          <a href="#about-me" className="menu-item" onClick={goToItem}>
+          {/* <a href="#about-me" className="menu-item" onClick={goToItem}>
             about me
           </a>
           <a href="#portfolio" className="menu-item" onClick={goToItem}>
@@ -85,7 +85,7 @@ const Header = () => {
           </a>
           <a href="#contact" className="menu-item" onClick={goToItem}>
             contact
-          </a>
+          </a> */}
         </div>
       ) : (
         <div></div>
