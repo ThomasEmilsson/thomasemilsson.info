@@ -1,35 +1,37 @@
 {
-  "Experience": [
+  "Experiences": [
     {
-      "name": "Redpill Linpro at Trafikförvältningen ICC",
-      "date": "March 2019 - Present",
+      "name": "Trafikförvaltningen",
+      "date": "Mar 2019 - Present",
       "role": "Integration Developer",
       "location": "Stockholm, Sweden",
       "description": [
-        "Developed 8 integrations and 15 APIs to production and manage over 100 integrations at the Swedish Transport Administration (Trafikförvaltningen) with Mule 3 and Mule 4",
-        "Built a script to automate publishing and updating APIs",
-        "Wrote the onboarding documentation as well the system and developer documention for the 8 integrations and 15 APIS among other general developer documentation.",
-        "Designed and developed a visual web page that displays the status of the integrations (up, down, slow)"
+        "Developed 8 integrations and 15 APIs to production and manage over 100 integrations",
+        "Built a shell script to automate publishing, updating and deploying APIs",
+        "Designed and developed a visual web page that displays the status of the integrations using D3 and JavaScript",
+        "Wrote the onboarding documentation as well the system and developer documention for the 8 integrations and 15 APIS among other general developer documentation."
       ],
-      "technologies": "Mule 3, Mule 4, XML, Linux, JavaScript, bash scripting, Terraform, bitbucket pipelines, AWS: Lambda, CloudWatch, SQS"
+      "technologies": "AWS Lambda, AWS Cloudwatch, AWS SQS, Mule 3/4, Terraform, XML, Linux, JavaScript, bash, Python, SQL"
     },
     {
-      "name": "Redpill Linpro at Trafikförvältningen TMS",
-      "date": "May 2021 - August 2021",
+      "name": "Trafikförvaltningen",
+      "date": "May 2021 - Aug 2021",
       "role": "Integration Developer",
       "location": "Stockholm, Sweden",
       "description": [
-        "Drafted and built an API to be built that traffics large quantites of data.",
-        "Assisted in maintaining and updating existing services"
+        "Drafted and built an API that traffics large quantites of data",
+        "Assisted in maintaining and updating existing services",
+        "Updated tests to fulfill new requirements"
       ],
       "technologies": "Python, Terraform, AWS: Lambda, SQS, SNS, API Gateway, Cognito"
     },
     {
       "name": "Empower & Lead",
-      "date": "July 2019 - November 2019",
+      "date": "July 2019 - Nov 2019",
       "role": "Web Developer",
       "location": "Stockholm, Sweden",
       "description": [
+        "Built a React website for a nonprofit organization",
         "Coordinated closely with designer and delivered finished product on a deadline",
         "Communicated and presented work modularly, allowing for adjustments based on feedback/concerns"
       ],
@@ -37,29 +39,31 @@
     },
     {
       "name": "Comfact",
-      "date": "May 2017 - August 2018",
-      "role": "Software Engineer | .NET Developer",
+      "date": "May 2017 - Aug 2018",
+      "role": "Software Engineer",
       "location": "Gothenburg, Sweden",
       "description": [
-        "Worked as a full stack .NET developer and have worked on several projects including the development of a complete reminder service to manage payments planning, as well as an invoicing system to print/track invoices",
-        "Assisted in maintaining and updating the existing web services while also redesigning and building the company's website from a marketing perspective using the CMS, DNN"
+        "Developed a complete reminder service in C# to manage payment deadlines",
+        "Developed an invoicing system in C# to print and track invoices, hooked up to the reminder system",
+        "Assisted in maintaing and updating existing web services",
+        "Re-designed and developed the company's website with a marketing perspective from scratch"
       ],
       "technologies": "C#, ASP.NET, DNN, JavaScript, HTML, CSS"
     },
     {
       "name": "Chalmers",
-      "date": "September 2016 - May 2017",
+      "date": "Sept 2016 - May 2017",
       "role": "Teaching Assistant",
       "location": "Gothenburg, Sweden",
       "description": [
         "Led supervision sessions where I advised and supported Software Engineering students in their assignments and projects",
         "Assisted in teaching UML and Software Architecture",
-        "Acted as Product Owner for a project over a 6 month period where I assessed their goals helped shape and prioritize their tasks and project to completion"
+        "Acted as Product Owner for a project over a 6 month period and assessed their goals to help shape and prioritize their tasks and project to completion"
       ]
     },
     {
       "name": "Randstad",
-      "date": "September 2015 - May 2017",
+      "date": "Sept 2015 - May 2017",
       "role": "Consultant",
       "location": "Gothenburg, Sweden",
       "description": [
@@ -68,12 +72,12 @@
     },
     {
       "name": "Middlesex University",
-      "date": "September 2013 - June 2013",
+      "date": "Sept 2013 - June 2013",
       "role": "Student Representative",
       "location": "London, England",
       "description": [
         "Acted as liaison between the students and the university board",
-        "Responsible for gathering students feedback/suggestions and representing my peers during board meetings"
+        "Responsible for gathering students feedback and suggestions and representing my peers during board meetings"
       ]
     }
   ],
@@ -82,29 +86,51 @@
       "university": "Gothenburg University",
       "graduation": "August 2018",
       "location": "Gothenburg, Sweden",
-      "degree": "BSc Software Engineering",
-      "thesis": "Mitigating Trust Issues with Blockchain-Based Applications"
+      "degree": "Software Engineering",
+      "thesis": "Mitigating Trust Issues with Blockchain-Based Applications",
+      "description": [
+        "Bachelor of Science in Software Engineering and Management",
+        "IT Case Competition 2016 - Denmark, TDC Group",
+        "CopenHacks Denmark participant 2016",
+        "Black Dot, Let's Collaborate sustainable innovation participant 2018",
+        "Black Dot, Let's Collaborate better health and well-being participant 2017"
+      ]
     },
     {
       "university": "FreeCodeCamp",
       "graduation": "May 2018",
       "location": "Gothenburg, Sweden",
-      "degree": "Full Stack Web Development Certification",
-      "thesis": null
+      "degree": "Full Stack Web Development",
+      "thesis": null,
+      "description": [
+        "Responsive Web Design Certification",
+        "JavaScript Algorithms and Data Structures Certification",
+        "Front End Development Libraries Certification",
+        "Back End Development and APIs Certification"
+      ]
     },
     {
       "university": "Middlesex University",
       "graduation": "August 2015",
       "location": "London, England",
-      "degree": "AA Music Production and Business",
-      "thesis": null
+      "degree": "Music Prod. and Business",
+      "thesis": null,
+      "description": [
+        "Associates Degree in Music Production and Business",
+        "Student Representative"
+      ]
     },
     {
       "university": "Awty International",
       "graduation": "July 2010",
       "location": "Houston, Texas",
       "degree": "International Baccalaureate",
-      "thesis": null
+      "thesis": null,
+      "description": [
+        "Higher Levels in Computer Science, Physics, Economics, and Math",
+        "President of Computer Club",
+        "Cross Country State Champion 2010"
+      ]
     }
   ],
   "Project": [
@@ -114,14 +140,13 @@
       "role": "Web Developer",
       "description": [
         "Hobby project which allows couples to create custom date-nights",
-        "Application stores all ideas and shuffles to pick one based on tags/filters/search",
-        "MERN Stack"
+        "Application stores all ideas and shuffles to pick one based on tags/filters/search"
       ],
-      "technologies": "React, JavaScript, CSS, HTML"
+      "technologies": "React, Express, Node, MongoDB"
     },
     {
       "name": "Self-Driving Car",
-      "date": "January 2017 - June 2017",
+      "date": "Jan 2017 - June 2017",
       "role": "Software Engineer and Scrum Master",
       "description": [
         "Programmed the software that allows a car to drive while detecting lanes/obstructions and handling intersections"
@@ -130,7 +155,7 @@
     },
     {
       "name": "Stena Line - Desktop Application",
-      "date": "January 2017 - June 2017",
+      "date": "Jan 2017 - June 2017",
       "role": "Software Engineer and Scrum Master",
       "description": [
         "Engineered and redesigned the software (from scratch) that boat captains use daily to submit data.",
@@ -141,7 +166,7 @@
     },
     {
       "name": "Baldr",
-      "date": "September 2016 - January 2017",
+      "date": "Sept 2016 - Jan 2017",
       "role": "iOS Developer and Scrum Master",
       "description": [
         "Developed a communication client using MQTT that controls lights in a home via an iOS application",
@@ -151,7 +176,7 @@
     },
     {
       "name": "The Smartest Car",
-      "date": "January 2016 - May 2016",
+      "date": "Jan 2016 - May 2016",
       "role": "Android Developer and Scrum Master",
       "description": [
         "Designed and Developed an Android Application to remotely control an Arduino-based SmartCar",
@@ -237,6 +262,86 @@
           ]
         }
       ]
+    }
+  ],
+  "Travels": [
+    {
+      "country": "sweden",
+      "location": "Kalmar, Sweden",
+      "description": "Born",
+      "date": "1992-1998"
+    },
+    {
+      "country": "japan",
+      "location": "Tokyo, Japan",
+      "description": "1st - 4th grade",
+      "date": "1998-2002"
+    },
+    {
+      "country": "england",
+      "location": "London, England",
+      "description": "5th grade",
+      "date": "2002-2003"
+    },
+    {
+      "country": "america",
+      "location": "Houston, Texas",
+      "description": "6th-12th grade",
+      "date": "2003-2010"
+    },
+    {
+      "country": "sweden",
+      "location": "Gothenburg, Sweden",
+      "description": "Gap Year",
+      "date": "2010-2011"
+    },
+    {
+      "country": "spain",
+      "location": "Malaga, Spain",
+      "description": "Gap Year",
+      "date": "2010-2011"
+    },
+    {
+      "country": "scotland",
+      "location": "Glasgow, Scotland",
+      "description": "UWS University",
+      "date": "2011-2012"
+    },
+    {
+      "country": "belgium",
+      "location": "Kortrijk, Belgium",
+      "description": "DAE University",
+      "date": "2011-2013"
+    },
+    {
+      "country": "scotland",
+      "location": "Ayr, Scotland",
+      "description": "Middlesex University",
+      "date": "2013-2014"
+    },
+    {
+      "country": "panama",
+      "location": "Panama City, Panama",
+      "description": "Middlesex University",
+      "date": "2013-2015"
+    },
+    {
+      "country": "sweden",
+      "location": "Gothenburg, Sweden",
+      "description": "University and Work",
+      "date": "2013-2018"
+    },
+    {
+      "country": "sweden",
+      "location": "Stockholm, Sweden",
+      "description": "Work",
+      "date": "2018-2021"
+    },
+    {
+      "country": "sweden",
+      "location": "Tjörn, Sweden",
+      "description": "Work",
+      "date": "2021-current"
     }
   ]
 }

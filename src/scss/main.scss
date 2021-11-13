@@ -8,9 +8,14 @@
 
 html {
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
   font: 100% $font-stack;
   background-color: $background-color-light;
   height: 100%;
@@ -32,4 +37,8 @@ main {
 
 .content {
   flex: 1 0 auto;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
 }

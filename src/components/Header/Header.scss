@@ -1,26 +1,66 @@
 @import "../../scss/colors.scss";
 
 .header {
-  background-color: $background-color-dark;
+  background-color: $background-color-blue;
   top: 0px;
   width: 100%;
   z-index: 999;
-  // position: fixed;
   display: flex;
   justify-content: center;
   align-items: baseline;
-  // border-bottom: 1px solid $text-color-blue;
-}
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-.header-title-div {
-  margin-left: 25%;
+  @media only screen and (max-width: bottom00px) {
+    justify-content: flex-end;
+  }
 }
 
 .header-title-div a {
   text-decoration: none;
-  color: $text-color-blue;
+  color: $navbar-text-color;
 }
 
 .header-title-div a:hover {
   color: $text-hover;
+}
+
+.hamburger {
+  display: none;
+  color: black;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 10px;
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.menu-item {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: $navbar-text-color;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  color: $text-hover;
+}
+
+.hide-menu-button {
+  display: none;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
 }

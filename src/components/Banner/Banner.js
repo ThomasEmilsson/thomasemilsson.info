@@ -10,10 +10,13 @@ import {
 
 const Banner = () => {
   return (
-    <div className="banner-div">
+    <div id="home" className="banner-div">
       <h1 className="banner-title"> Welcome</h1>
       <div className="banner-description">
-        I am a Software Engineer, Web Developer, Musician, and an Avid Climber
+        <p>My name is Thomas Emilsson</p>
+        <p>
+          I am a Software Engineer, Web Developer, Musician, and an Avid Climber
+        </p>
         <p className="banner-icons">
           <a href="www.google.com">
             <FaLinkedin />

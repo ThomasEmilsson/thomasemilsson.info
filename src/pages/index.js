@@ -4,25 +4,29 @@ import "../scss/extras.scss";
 import "../scss/main.scss";
 
 import Header from "../components/Header/Header";
-import OptionList from "../components/OptionList/OptionList";
-import Banner from "../components/Banner/Banner";
+import Hero from "../components/Hero/Hero";
 import Footer from "../components/Footer/Footer";
+import Resume from "../components/Resume/Resume";
+import About from "../components/About/About";
 
 const IndexPage = () => {
   return (
     <main>
-      <div className="content">
-        <title>🇸🇪 🇵🇪</title>
+      <meta
+        name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1.0"
+      />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <div id="home" className="content">
+        <title>Thomas Emilsson</title>
         <Header />
-        <div className="diagonal-background">
-          <Banner />
-        </div>
-        <OptionList />
+        <Hero />
+        <Resume />
+        {/* <About /> */}
       </div>
-      <div className="diagonal-background-inverse" />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 };
-
+//
 export default IndexPage;

@@ -1,7 +1,13 @@
 @import "../../scss/colors.scss";
 
 .banner-div {
+  padding-top: 60px;
   text-align: center;
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+    padding: 0px;
+  }
 }
 
 .banner-title {
@@ -9,6 +15,10 @@
   color: $text-color;
   border-bottom: 2px double $text-color;
   display: inline-block;
+
+  @media only screen and (max-width: 600px) {
+    padding: 0px;
+  }
 }
 
 .banner-description {
