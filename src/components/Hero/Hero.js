@@ -39,19 +39,19 @@ const Hero = () => {
               <b>Address:</b> Sweden
             </li>
             <li className="links">
-              <a href="www.google.com">
+              <a href="https://www.linkedin.com/in/thomasemilsson/">
                 <FaLinkedin />
               </a>
-              <a href="www.google.com">
+              <a href="https://github.com/ThomasEmilsson">
                 <FaGithub />
               </a>
-              <a href="www.google.com">
-                <FaSoundcloud />
-              </a>
-              <a href="www.google.com">
+              <a href="https://www.instagram.com/bjornparedes/">
                 <FaInstagram />
               </a>
-              <a href="www.google.com">
+              <a href="https://soundcloud.com/user-791546252">
+                <FaSoundcloud />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=511624622">
                 <FaFacebookSquare />
               </a>
             </li>
