@@ -5,19 +5,21 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.scss";
 
+const isBrowser = typeof window !== "undefined";
+
 const Header = () => {
   const [selected, setSelected] = useState("home");
   const [menu, setMenu] = useState(false);
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState();
 
   useEffect(() => {
     function updateWidth() {
-      setWidth(window.innerWidth);
+      if (isBrowser) setWidth(window.innerWidth);
       if (width > 600) {
         setMenu(false);
       }
     }
-    window.addEventListener("resize", updateWidth);
+    if (isBrowser) window.addEventListener("resize", updateWidth);
   });
 
   const updateSelected = (event) => {

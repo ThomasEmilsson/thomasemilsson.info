@@ -24,7 +24,7 @@ const About = () => {
               <div>{location}</div>
               <div>{description}</div>
               <div>{date}</div>
-              <Flag country={country} />
+              {/* <Flag country={country} /> */}
             </div>
           ))}
         </div>
@@ -49,15 +49,15 @@ const ReadOnlyCheckBox = ({ title, status, indent }) => {
   );
 };
 
-const Flag = (props) => (
-  <div className="flag">
-    <label htmlFor={`flag-${props.country}`}>
-      <img
-        src={`${window.location.origin}/static/flags/${props.country}.png`}
-        alt={`flag of ${props.country}`}
-      />
-    </label>
-  </div>
-);
+// const Flag = (props) => (
+//   <div className="flag">
+//     <label htmlFor={`flag-${props.country}`}>
+//       <img
+//         src={`${window.location.origin}/static/flags/${props.country}.png`}
+//         alt={`flag of ${props.country}`}
+//       />
+//     </label>
+//   </div>
+// );
 
 export default About;
